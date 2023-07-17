@@ -1,0 +1,27 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./components/page/page.css);
+
+/* Components */
+/* MainPages */
+@import url(./components/APP/App.css);
+@import url(./components/MainPage/MainPage.css);
+@import url(./components/AboutPage/AboutPage.css);
+@import url(./components/ClientsPage/ClientsPage.css);
+@import url(./components/ContactPage/ContactPage.css);
+@import url(./components/AllWorksPage/AllWorksPage.css);
+
+/* Blocks */
+@import url(./components/Header/Header.css);
+@import url(./components/Footer/Footer.css);
+@import url(./components/Illustration/Illustration.css);
+@import url(./components/AboutMe/AboutMe.css);
+@import url(./components/AboutWork/AboutWork.css);
+@import url(./components/AboutWorkCard/AboutWorkCard.css);
+@import url(./components/AboutSkillsCard/AboutSkillsCard.css);
+@import url(./components/ContactBlock/ContactBlock.css);
+@import url(./components/ClientsList/ClientsList.css);
+@import url(./components/WorkCard/WorkCard.css);
+
+
+/* Details */

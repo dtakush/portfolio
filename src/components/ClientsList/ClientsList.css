@@ -1,0 +1,37 @@
+.clients-list {
+    width: 89%;
+    max-width: 1150px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin: 72px auto 0;
+    z-index: 0;
+}
+
+.clients-list_text {
+    font-size: 3.2rem;
+    font-weight: 900;
+    font-family: 'Gilroy';
+    line-height: 3.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #881EF2;
+    margin: 30px 0 0 0;
+    cursor: url('../../pics/coursor_link.svg'), auto;
+}
+
+.clients-list::-webkit-scrollbar {
+    width: 5px;
+  }
+
+.clients-list::-webkit-scrollbar-track {
+    background-color: #fff;
+    opacity: 30%;
+  }
+
+.clients-list::-webkit-scrollbar-thumb {
+    background-color: #A3F937;
+  }

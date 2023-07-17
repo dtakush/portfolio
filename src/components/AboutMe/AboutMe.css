@@ -1,0 +1,43 @@
+.about-me {
+    width: 89%;
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row;
+    margin: 150px auto;
+}
+
+.about-me_image {
+    width: 32%;
+    min-width: 359px;
+    min-height: 100%;
+    background-image: url(../../pics/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me_description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 92px;
+}
+
+.about-me_header {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    font-weight: 900;
+    color: #A3F937;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.about-me_text {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #fff;
+    margin: 18px 0 0;
+}
+
+.about-me_text:first-of-type {
+    margin: 35px 0 0;
+}

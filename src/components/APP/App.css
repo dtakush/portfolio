@@ -1,0 +1,17 @@
+.page {
+  background-color: #881EF2;
+  min-height: 100vh;
+  font-family: 'Gilroy', 'Arial', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #A3F937;
+}

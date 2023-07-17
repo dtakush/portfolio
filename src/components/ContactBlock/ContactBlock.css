@@ -1,0 +1,44 @@
+.contact-block {
+    width: 1150px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    margin: auto;
+    padding: 100px 0 0 0;
+}
+
+.contact-block_table {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 0 0;
+}
+
+.contact-block_table:first-of-type {
+    margin: 0 0 40px 0;
+}
+
+.contact-block_header {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 900;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+
+.contact-block_line {
+    margin: 10px 5px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.contact-block_text {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 100;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    cursor: url('../../pics/coursor_link.svg'), auto;
+}

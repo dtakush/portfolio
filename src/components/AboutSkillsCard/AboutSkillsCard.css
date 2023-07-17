@@ -1,0 +1,31 @@
+.about-work_load-frame {
+    width: 29%;
+    height: 34px;
+    border: 0.08rem solid #000;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin: 18px 0 0 0;
+    padding: 0;
+}
+
+.about-work_load-line {
+    background-image: url(../../pics/green_line_1.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25px;
+    margin: 2px 0 2px 5px;
+}
+
+.about-work_load-text{
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 900;
+    font-family: 'Gilroy';
+    color: #881EF2;
+    text-decoration: none;
+    margin: 7px 0 7px 12px;
+}

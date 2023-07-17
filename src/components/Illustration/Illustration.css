@@ -1,0 +1,22 @@
+.illustration {
+    overflow: hidden;
+    width: 70%;
+    height: 110%;
+    background-image: url(../../pics/main.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+    position: absolute;
+    display: block;
+    top: -10%;
+    right: 0;
+    margin: auto 0;
+    padding: 0;
+}
+
+.illustration__small {
+    width: 55%;
+    height: 100%;
+    top: 10%;
+}

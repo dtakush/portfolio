@@ -1,0 +1,61 @@
+.about-work__table-line {
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+
+.about-work__table-line:first-of-type {
+    margin: 18px 0 0 0;
+}
+
+.about-work__table-place {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+}
+
+.about-work__table-years {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: 'Gilroy';
+    font-weight: 900;
+    text-align: right;
+    text-decoration: none;
+    margin: 0 0 0 5px;
+    background-color: #fff;
+    z-index: 5;
+}
+
+.about-work__company {
+    height: 20px;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: 'Gilroy';
+    font-weight: 900;
+    text-align: left;
+    text-decoration: none;
+    margin: 0;
+    background-color: #fff;
+    z-index: 5;
+}
+
+.about-work__speciality {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-family: 'Gilroy';
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    margin: 0;
+    background-color: #fff;
+    z-index: 5;
+}
+
+.about-work__line {
+    height: 1px;
+    background-color: #000;
+    margin: 5px 0 0 0;
+}
+

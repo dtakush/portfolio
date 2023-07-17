@@ -1,0 +1,10 @@
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 100%;
+    font-family: 'Inter', 'Arial', sans-serif;
+    cursor: url('../../pics/coursor.svg'), auto;
+  }
+

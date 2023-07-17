@@ -1,0 +1,85 @@
+.about-work {
+    width: 100%;
+}
+
+.about-work_background {
+    background-color: #fff;
+}
+
+.about-work_background-top {
+    width: 100%;
+    height: 40px;
+    background-image: url(../../pics/background-top_white.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.about-work_background-down {
+    width: 100%;
+    height: 40px;
+    background-image: url(../../pics/background-down_white.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.about-work_tables {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0 0 0;
+}
+
+.about-work_experience{
+    width: 89%;
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.about-work_years {
+    width: 33%;
+    margin: 0 248px 0 0;
+}
+
+.about-work_years:last-of-type {
+    margin: 0;
+}
+
+.about-work_header {
+    font-size: 3.2rem;
+    font-family: 'Gilroy';
+    line-height: 3.2rem;
+    font-weight: 900;
+    color: #881EF2;
+    text-transform: uppercase;
+    margin: 40px 0 0 0;
+}
+
+.about-work_table {
+    width: 100%;
+}
+
+.about-work_skills {
+    width: 89%;
+    max-width: 1150px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.about-work_skills-table {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
