@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 
 //Components
@@ -20,12 +19,12 @@ function AllWorksPage(props) {
                 <div className='all-work-background'>
                     <div className='all-work'>
                         <div className='all-work_menu'>
-                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortAllWorks}>Все работы</NavLink>
-                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortIllustration}>Иллюстрация</NavLink>
-                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortOutdoors}>Outdoors</NavLink>
-                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortPress}>Пресса</NavLink>
-                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortAnimation}>Анимация</NavLink>
-                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortWeb}>Веб-дизайн</NavLink>
+                            <a id='all-works' className='all-work_menu-link all-work_menu-link_active' onClick={props.onSortAllWorks}>Все работы</a>
+                            <a id='illustration' className='all-work_menu-link' onClick={props.onSortIllustration}>Иллюстрация</a>
+                            <a id='outdoors' className='all-work_menu-link' onClick={props.onSortOutdoors}>Outdoors</a>
+                            <a id='press' className='all-work_menu-link' onClick={props.onSortPress}>Пресса</a>
+                            <a id='animation' className='all-work_menu-link' onClick={props.onSortAnimation}>Анимация</a>
+                            <a id='web' className='all-work_menu-link' onClick={props.onSortWeb}>Веб-дизайн</a>
                         </div>
 
                         <div className='all-work_block'>

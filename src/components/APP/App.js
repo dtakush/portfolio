@@ -14,10 +14,9 @@ import AboutPage from '../AboutPage/AboutPage';
 import ContactPage from '../ContactPage/ContactPage';
 import ClientsPage from '../ClientsPage/ClientsPage';
 import AllWorksPage from '../AllWorksPage/AllWorksPage';
-import PauseTeaPackCasePage from '../CASES/PauseTeaPackCasePage';
 
 //CASES
-
+import PauseTeaPackCasePage from '../CASES/PauseTeaPackCasePage';
 
 
 function App() { 
@@ -36,8 +35,19 @@ function App() {
 
     //Sort Works
     const [sortedCards, setSortedCards] = React.useState(itemsWorks);
+    
 
     function sortAllWorks () {
+      const menuLinks = document.querySelectorAll('.all-work_menu-link');
+      menuLinks.forEach((item) => {
+        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
+          item.classList.remove('all-work_menu-link_active');
+        }
+      });
+
+      const link = document.getElementById("all-works");
+      link.classList.add('all-work_menu-link_active');
+
       const result =[];
       itemsWorks.forEach((item) => {
         setSortedCards([]);
@@ -47,6 +57,16 @@ function App() {
     }
     
     function sortIllustration () {
+      const menuLinks = document.querySelectorAll('.all-work_menu-link');
+      menuLinks.forEach((item) => {
+        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
+          item.classList.remove('all-work_menu-link_active');
+        }
+      });
+
+      const link = document.getElementById("illustration");
+      link.classList.add('all-work_menu-link_active');
+
       const result = [];
       itemsWorks.forEach((item) => {
         if((item.subtitle == 'Иллюстрация')) {
@@ -60,6 +80,16 @@ function App() {
     }
 
     function sortOutdoors () {
+      const menuLinks = document.querySelectorAll('.all-work_menu-link');
+      menuLinks.forEach((item) => {
+        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
+          item.classList.remove('all-work_menu-link_active');
+        }
+      });
+
+      const link = document.getElementById("outdoors");
+      link.classList.add('all-work_menu-link_active');
+
       const result = [];
       itemsWorks.forEach((item) => {
         if((item.subtitle == 'Outdoor')) {
@@ -73,6 +103,16 @@ function App() {
     }
 
     function sortPress () {
+      const menuLinks = document.querySelectorAll('.all-work_menu-link');
+      menuLinks.forEach((item) => {
+        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
+          item.classList.remove('all-work_menu-link_active');
+        }
+      });
+
+      const link = document.getElementById("press");
+      link.classList.add('all-work_menu-link_active');
+
       const result = [];
       itemsWorks.forEach((item) => {
         if((item.subtitle == 'Пресса')) {
@@ -86,6 +126,16 @@ function App() {
     }
 
     function sortAnimation () {
+      const menuLinks = document.querySelectorAll('.all-work_menu-link');
+      menuLinks.forEach((item) => {
+        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
+          item.classList.remove('all-work_menu-link_active');
+        }
+      });
+
+      const link = document.getElementById("animation");
+      link.classList.add('all-work_menu-link_active');
+
       const result = [];
       itemsWorks.forEach((item) => {
         if((item.subtitle == 'Анимация')) {
@@ -99,6 +149,16 @@ function App() {
     }
 
     function sortWeb () {
+      const menuLinks = document.querySelectorAll('.all-work_menu-link');
+      menuLinks.forEach((item) => {
+        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
+          item.classList.remove('all-work_menu-link_active');
+        }
+      });
+
+      const link = document.getElementById("web");
+      link.classList.add('all-work_menu-link_active');
+
       const result = [];
       itemsWorks.forEach((item) => {
         if((item.subtitle == 'Веб-дизайн')) {

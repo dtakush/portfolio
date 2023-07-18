@@ -59,12 +59,18 @@
     cursor: url('../../pics/coursor_link.svg'), auto;
 }
 
+.all-work_menu-link_active {
+    font-weight: 900;
+    background-color: #A3F937;
+}
+
 .all-work_menu-link:hover {
     font-weight: 900;
 }
 
 .all-work_block {
     width: 78%;
+    transition: .5s ease-in-out;
 }
 
 .all-work_header {
@@ -81,4 +87,5 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    transition: .5s ease-in-out;
 }
