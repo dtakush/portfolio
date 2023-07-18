@@ -1,8 +1,9 @@
 .header {
     display: flex;
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
     text-decoration: none;
     color: #fff;
+    z-index: 100;
 }
 
 .header_column {

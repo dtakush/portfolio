@@ -16,13 +16,40 @@ import ClientsPage from '../ClientsPage/ClientsPage';
 import AllWorksPage from '../AllWorksPage/AllWorksPage';
 import CasePage from '../CasePage/CasePage';
 
+//CASES
+
+
 
 function App() { 
+  //Constants
+  const location = useLocation();
+  const currentPath = location.pathname;
+
+
+  //Scroll Button
+  window.addEventListener('scroll', function() {
+    var scroll = document.querySelector('.btn-up');
+    scroll.classList.toggle('active', window.scrollY > 300)
+  })
+
+  function scrollTop () {
+      window.scrollTo ({
+          top: 0,
+          left: 0,
+          behavior: 'smooth',
+      })
+  }
 
 
 
   return (
     <div className="page">
+
+            {currentPath == '/work' ?
+                (<div className='btn-up' onClick={scrollTop}></div>)
+            :
+                (<div className='btn-up btn-up_hide' onClick={scrollTop}></div>)
+            }
 
       <Routes>
         <Route
@@ -57,7 +84,8 @@ function App() {
 
         <Route
           exact path="/work/pause-tea-pack"
-          element={<CasePage />}
+          element={<CasePage
+            scrollTop={scrollTop} />}
         />
 
         

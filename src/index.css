@@ -10,6 +10,7 @@
 @import url(./components/ClientsPage/ClientsPage.css);
 @import url(./components/ContactPage/ContactPage.css);
 @import url(./components/AllWorksPage/AllWorksPage.css);
+@import url(./components/CasePage/CasePage.css);
 
 /* Blocks */
 @import url(./components/Header/Header.css);

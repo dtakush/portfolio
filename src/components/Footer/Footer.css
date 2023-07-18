@@ -2,7 +2,7 @@
     width: 100%;
     background-color: #881EF2;
     margin: auto 0 44px 0;
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 .footer__container_main {
@@ -12,7 +12,7 @@
     justify-content: left;
     align-items: left;
     margin: 0 auto;
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 .footer__container_small {
@@ -22,7 +22,7 @@
     justify-content: space-between;
     align-items: left;
     margin: 0 auto;
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 .footer__disclaimer {

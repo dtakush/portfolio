@@ -6,17 +6,19 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 100;
+    z-index: 101;
     position: absolute;
     display: block;
-    top: -10%;
+    bottom: 0;
     right: 0;
     margin: auto 0;
     padding: 0;
 }
 
 .illustration__small {
+    z-index: 5;
     width: 55%;
     height: 100%;
-    top: 10%;
+    bottom: 0;
+    overflow: hidden;
 }
