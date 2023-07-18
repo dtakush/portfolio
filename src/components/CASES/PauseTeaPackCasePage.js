@@ -1,29 +1,30 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 //Components
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import BtnBack from '../CasePage/BtnBack';
+import BackgroundTop from '../CasePage/BackgroundTop';
+import BackgroundBottom from '../CasePage/BackgroundBottom';
+import BtnUp from '../CasePage/BtnUp';
 
 
-function CasePage() {
+function PauseTeaPackCasePage(props) {
 
 
     return (
         <>
+        <BtnUp
+            scrollTop={props.scrollTop} />
         <Header />
+        <BackgroundTop />
+        <div className='case-page-background'>
+            <div className='case-page'>
+                <BtnBack />
 
-        <div className='case-page_background-top'></div>
 
-            <div className='case-page-background'>
-                <div className='case-page'>
-
-                    <NavLink  to='/work' className='case-page_menu-link' id="btnBack">
-                        <div className='case-page__back-arrow'></div>
-                        <p className='case-page_menu-text'>Назад</p>
-                    </NavLink>
-
-                    <div className='case-page_section'>
+                <div className='case-page_section'>
                         <div className='case-page__cover case-page_image'></div>
 
                          <div className='case-page__block'>
@@ -76,14 +77,14 @@ function CasePage() {
 
                     </div>
 
-                </div>
-            </div>
 
-             <div className='case-page_background-bottom'></div>
-                
-            <Footer />
+
+                </div>
+        </div>
+        <BackgroundBottom />
+        <Footer />
         </>    
     )
 }
 
-export default CasePage;
+export default PauseTeaPackCasePage;

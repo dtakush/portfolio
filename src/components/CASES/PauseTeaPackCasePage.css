@@ -11,64 +11,6 @@
     background-color: #fff;
 }
 
-.case-page_background-top {
-    width: 100%;
-    height: 40px;
-    background-image: url(../../pics/background-top_white.svg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 200%;
-    overflow: hidden;
-    margin: 100px 0 0 0;
-}
-
-.case-page_background-bottom {
-    width: 100%;
-    height: 40px;
-    background-image: url(../../pics/background-down_white.svg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 200%;
-    overflow: hidden;
-    margin: 0;
-}
-
-
-.case-page_menu-link {
-    width: 13%;
-    height: 17px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    font-family: 'Gilroy';
-    font-weight: 100;
-    color: #000;
-    text-align: left;
-    text-decoration: none;
-    margin: 10px 70px 0 0;
-    cursor: url('../../pics/coursor_link.svg'), auto;
-}
-
-.case-page__back-arrow {
-    width: 23px;
-    height: 17px;
-    background-image: url(../../pics/back-arrow.svg);
-}
-
-.case-page_menu-text {
-    height: 20px;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    font-family: 'Gilroy';
-    font-weight: 900;
-    color: #000;
-    text-align: left;
-    text-decoration: none;
-    margin: 0 0 0 6px;
-}
-
 .case-page_section {
     width: 78%;
 }
@@ -154,30 +96,4 @@
     min-height: 1315px;
     margin: 100px 0 0 0;
     background-image: url(../../pics/cases-pics/pause-tea-pack/tea-pack_mockup.jpg);
-}
-
-.btn-up {
-    position: fixed;
-    left: 15%;
-    bottom: 120px;
-    width: 80px;
-    height: 80px;
-    background-image: url(../../pics/btnUp.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 99;
-    cursor: url('../../pics/coursor_link.svg'), auto;
-    visibility: hidden;
-    opacity: 0;
-    transition: .5s ease-in-out;
-}
-
-.btn-up.active {
-    visibility: visible;
-    opacity: 1;
-}
-
-.btn-up_hide {
-    display: none;
 }

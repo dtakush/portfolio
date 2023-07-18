@@ -10,7 +10,9 @@
 @import url(./components/ClientsPage/ClientsPage.css);
 @import url(./components/ContactPage/ContactPage.css);
 @import url(./components/AllWorksPage/AllWorksPage.css);
-@import url(./components/CasePage/CasePage.css);
+
+/*CASES*/
+@import url(./components/CASES/PauseTeaPackCasePage.css);
 
 /* Blocks */
 @import url(./components/Header/Header.css);
@@ -23,6 +25,10 @@
 @import url(./components/ContactBlock/ContactBlock.css);
 @import url(./components/ClientsList/ClientsList.css);
 @import url(./components/WorkCard/WorkCard.css);
+@import url(./components/CasePage/BtnBack.css);
+@import url(./components/CasePage/BackgroundTop.css);
+@import url(./components/CasePage/BackgroundBottom.css);
+@import url(./components/CasePage/BtnUp.css);
 
 
 /* Details */

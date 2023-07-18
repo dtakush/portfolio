@@ -14,7 +14,7 @@ import AboutPage from '../AboutPage/AboutPage';
 import ContactPage from '../ContactPage/ContactPage';
 import ClientsPage from '../ClientsPage/ClientsPage';
 import AllWorksPage from '../AllWorksPage/AllWorksPage';
-import CasePage from '../CasePage/CasePage';
+import PauseTeaPackCasePage from '../CASES/PauseTeaPackCasePage';
 
 //CASES
 
@@ -23,33 +23,97 @@ import CasePage from '../CasePage/CasePage';
 function App() { 
   //Constants
   const location = useLocation();
-  const currentPath = location.pathname;
 
 
   //Scroll Button
-  window.addEventListener('scroll', function() {
-    var scroll = document.querySelector('.btn-up');
-    scroll.classList.toggle('active', window.scrollY > 300)
-  })
-
   function scrollTop () {
       window.scrollTo ({
           top: 0,
           left: 0,
           behavior: 'smooth',
       })
-  }
+    }
 
+    //Sort Works
+    const [sortedCards, setSortedCards] = React.useState(itemsWorks);
+
+    function sortAllWorks () {
+      const result =[];
+      itemsWorks.forEach((item) => {
+        setSortedCards([]);
+        result.push(item);
+        setSortedCards(result);
+      }) 
+    }
+    
+    function sortIllustration () {
+      const result = [];
+      itemsWorks.forEach((item) => {
+        if((item.subtitle == 'Иллюстрация')) {
+          setSortedCards([]);
+          result.push(item);
+          setSortedCards(result);
+        } else if (result.length < 1) {
+          setSortedCards([]);
+        }
+      })
+    }
+
+    function sortOutdoors () {
+      const result = [];
+      itemsWorks.forEach((item) => {
+        if((item.subtitle == 'Outdoor')) {
+          setSortedCards([]);
+          result.push(item);
+          setSortedCards(result);
+        } else if (result.length < 1) {
+          setSortedCards([]);
+        }
+      })
+    }
+
+    function sortPress () {
+      const result = [];
+      itemsWorks.forEach((item) => {
+        if((item.subtitle == 'Пресса')) {
+          setSortedCards([]);
+          result.push(item);
+          setSortedCards(result);
+        } else if (result.length < 1) {
+          setSortedCards([]);
+        }
+      })
+    }
+
+    function sortAnimation () {
+      const result = [];
+      itemsWorks.forEach((item) => {
+        if((item.subtitle == 'Анимация')) {
+          setSortedCards([]);
+          result.push(item);
+          setSortedCards(result);
+        } else if (result.length < 1) {
+          setSortedCards([]);
+        }
+      })
+    }
+
+    function sortWeb () {
+      const result = [];
+      itemsWorks.forEach((item) => {
+        if((item.subtitle == 'Веб-дизайн')) {
+          setSortedCards([]);
+          result.push(item);
+          setSortedCards(result);
+        } else if (result.length < 1) {
+          setSortedCards([]);
+        }
+      })
+    }
 
 
   return (
     <div className="page">
-
-            {currentPath == '/work' ?
-                (<div className='btn-up' onClick={scrollTop}></div>)
-            :
-                (<div className='btn-up btn-up_hide' onClick={scrollTop}></div>)
-            }
 
       <Routes>
         <Route
@@ -67,12 +131,6 @@ function App() {
         />
 
         <Route
-          exact path="/work"
-          element={<AllWorksPage
-            works={itemsWorks} />}
-        />
-
-        <Route
           exact path="/clients"
           element={<ClientsPage />}
         />
@@ -83,8 +141,21 @@ function App() {
         />
 
         <Route
+          exact path="/work"
+          element={<AllWorksPage
+            scrollTop={scrollTop}
+            onSortAllWorks={sortAllWorks}
+            onSortIllustration={sortIllustration}
+            onSortOutdoors={sortOutdoors}
+            onSortPress={sortPress}
+            onSortAnimation={sortAnimation}
+            onSortWeb={sortWeb}
+            cards={sortedCards} />}
+        />
+
+        <Route
           exact path="/work/pause-tea-pack"
-          element={<CasePage
+          element={<PauseTeaPackCasePage
             scrollTop={scrollTop} />}
         />
 

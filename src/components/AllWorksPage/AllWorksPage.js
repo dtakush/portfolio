@@ -12,6 +12,7 @@ function AllWorksPage(props) {
 
     return (
             <>
+                <div className='btn-up' onClick={props.scrollTop}></div>
                 <Header />
 
                 <div className='all-work_background-top'></div>
@@ -19,16 +20,17 @@ function AllWorksPage(props) {
                 <div className='all-work-background'>
                     <div className='all-work'>
                         <div className='all-work_menu'>
-                            <NavLink  to='#' className='all-work_menu-link'>Иллюстрация</NavLink>
-                            <NavLink  to='#' className='all-work_menu-link'>Outdoors</NavLink>
-                            <NavLink  to='#' className='all-work_menu-link'>Пресса</NavLink>
-                            <NavLink  to='#' className='all-work_menu-link'>Анимация</NavLink>
-                            <NavLink  to='#' className='all-work_menu-link'>Веб-дизайн</NavLink>
+                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortAllWorks}>Все работы</NavLink>
+                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortIllustration}>Иллюстрация</NavLink>
+                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortOutdoors}>Outdoors</NavLink>
+                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortPress}>Пресса</NavLink>
+                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortAnimation}>Анимация</NavLink>
+                            <NavLink  to='#' className='all-work_menu-link' onClick={props.onSortWeb}>Веб-дизайн</NavLink>
                         </div>
 
                         <div className='all-work_block'>
                             <div className='all-work_cards'>
-                                {props.works.slice(0).map((item) => {
+                                {props.cards.slice(0).map((item) => {
                                     return (
                                         <WorksCard
                                         title={item.title}

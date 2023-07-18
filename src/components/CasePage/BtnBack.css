@@ -1,0 +1,34 @@
+.case-page_menu-link {
+    width: 13%;
+    height: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Gilroy';
+    font-weight: 100;
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    margin: 10px 70px 0 0;
+    cursor: url('../../pics/coursor_link.svg'), auto;
+}
+
+.case-page__back-arrow {
+    width: 23px;
+    height: 17px;
+    background-image: url(../../pics/back-arrow.svg);
+}
+
+.case-page_menu-text {
+    height: 20px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Gilroy';
+    font-weight: 900;
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    margin: 0 0 0 6px;
+}

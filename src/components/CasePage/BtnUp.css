@@ -1,0 +1,25 @@
+.btn-up {
+    position: fixed;
+    left: 15%;
+    bottom: 120px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../../pics/btnUp.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 99;
+    cursor: url('../../pics/coursor_link.svg'), auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+
+.btn-up.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn-up_hide {
+    display: none;
+}
