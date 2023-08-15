@@ -16,9 +16,18 @@ import ClientsPage from '../ClientsPage/ClientsPage';
 import AllWorksPage from '../AllWorksPage/AllWorksPage';
 
 //CASES
+//Illustration
 import PauseTeaPackCasePage from '../CASES/PauseTeaPackCasePage';
 import StPetOutdoor from '../CASES/StPetOutdoor';
 import StikersVolost from '../CASES/StikersVolost';
+//Outdoor
+import SerdceStolitsy from '../CASES/SerdceStolitsy';
+import DomXXII from '../CASES/DomXXII';
+import AistResidence from '../CASES/AistResidence';
+import Rogozhsky from '../CASES/Rogozhsky';
+import Horoshovsky from '../CASES/Horoshovsky';
+import DolinaSetun from '../CASES/DolinaSetun';
+
 
 
 function App() { 
@@ -232,6 +241,41 @@ function App() {
             scrollTop={scrollTop} />}
         />
 
+        <Route
+          exact path="/work/serdce-stolitsy"
+          element={<SerdceStolitsy
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/dom-22"
+          element={<DomXXII
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/aist-residence"
+          element={<AistResidence
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/rogozhsky"
+          element={<Rogozhsky
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/horoshovsky"
+          element={<Horoshovsky
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/dolina-setun"
+          element={<DolinaSetun
+            scrollTop={scrollTop} />}
+        />
         
       </Routes>
       

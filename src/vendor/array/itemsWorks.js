@@ -24,16 +24,16 @@ const itemsWorks = [
       picLink: '/work/dom-22',
     },
     {
-      title: 'Aist Residence',
-      subtitle: 'Outdoor',
-      picUrl: 'https://i.postimg.cc/26cQYKHs/cover-sq.png',
-      picLink: '/work/aist-residence',
-    },
-    {
       title: 'Заповедник "Волость"',
       subtitle: 'Иллюстрация',
       picUrl: 'https://i.postimg.cc/P5FkM5ZF/cover-sq.png',
       picLink: '/work/volost',
+    },
+    {
+      title: 'Aist Residence',
+      subtitle: 'Outdoor',
+      picUrl: 'https://i.postimg.cc/26cQYKHs/cover-sq.png',
+      picLink: '/work/aist-residence',
     },
     {
       title: 'Клубный Дом на Рогожском',

@@ -1,0 +1,36 @@
+
+.horoshovsky_title {
+    margin: 30px 0 0 0;
+}
+
+.horoshovsky_cover {
+    background-image: url(../../pics/cases-pics/horoshovsky/cover.png);
+}
+
+.horoshovsky_task-pic {
+    background-position: right;
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/horoshovsky/solution.png);
+}
+
+.horoshovsky_solution-pic {
+    width: 50%;
+    min-height: 245px;
+    background-image: url(../../pics/cases-pics/horoshovsky/solution.png);
+}
+
+.horoshovsky_pack {
+    margin: 100px 0;
+    background-image: url(../../pics/cases-pics/horoshovsky/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.horoshovsky_mockup {
+    width: 100%;
+    min-height: 1344px;
+    margin: 100px 0 0 0;
+    background-image: url(../../pics/cases-pics/horoshovsky/mockup.png);
+}

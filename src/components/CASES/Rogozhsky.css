@@ -1,0 +1,36 @@
+
+.rogozhsky_title {
+    margin: 30px 0 0 0;
+}
+
+.rogozhsky_cover {
+    background-image: url(../../pics/cases-pics/rogozhsky/cover.png);
+}
+
+.rogozhsky_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/rogozhsky/task.png);
+}
+
+.rogozhsky_solution-pic {
+    width: 50%;
+    min-height: 245px;
+    background-image: url(../../pics/cases-pics/rogozhsky/solution.png);
+}
+
+.rogozhsky_pack {
+    min-height: 700px;
+    margin: 150px 0;
+    background-image: url(../../pics/cases-pics/rogozhsky/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.rogozhsky_mockup {
+    width: 100%;
+    min-height: 596px;
+    margin: 100px 0 0 0;
+    background-image: url(../../pics/cases-pics/rogozhsky/mockup.png);
+}

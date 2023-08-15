@@ -11,11 +11,21 @@
 @import url(./components/ContactPage/ContactPage.css);
 @import url(./components/AllWorksPage/AllWorksPage.css);
 
+
 /*CASES*/
 @import url(./components/CasePage/CasePage.css);
+/*Illustration*/
 @import url(./components/CASES/PauseTeaPackCasePage.css);
 @import url(./components/CASES/StPetOutdoor.css);
 @import url(./components/CASES/StikersVolost.css);
+/*Outdoor*/
+@import url(./components/CASES/SerdceStolitsy.css);
+@import url(./components/CASES/DomXXII.css);
+@import url(./components/CASES/AistResidence.css);
+@import url(./components/CASES/Rogozhsky.css);
+@import url(./components/CASES/Horoshovsky.css);
+@import url(./components/CASES/DolinaSetun.css);
+
 
 /* Blocks */
 @import url(./components/Header/Header.css);
