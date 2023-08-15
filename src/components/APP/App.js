@@ -17,6 +17,8 @@ import AllWorksPage from '../AllWorksPage/AllWorksPage';
 
 //CASES
 import PauseTeaPackCasePage from '../CASES/PauseTeaPackCasePage';
+import StPetOutdoor from '../CASES/StPetOutdoor';
+import StikersVolost from '../CASES/StikersVolost';
 
 
 function App() { 
@@ -36,7 +38,6 @@ function App() {
     //Sort Works
     const [sortedCards, setSortedCards] = React.useState(itemsWorks);
     
-
     function sortAllWorks () {
       const menuLinks = document.querySelectorAll('.all-work_menu-link');
       menuLinks.forEach((item) => {
@@ -216,6 +217,18 @@ function App() {
         <Route
           exact path="/work/pause-tea-pack"
           element={<PauseTeaPackCasePage
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/st-pet"
+          element={<StPetOutdoor
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/volost"
+          element={<StikersVolost
             scrollTop={scrollTop} />}
         />
 

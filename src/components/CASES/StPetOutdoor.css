@@ -1,0 +1,34 @@
+
+.st-pet__cover {
+    background-image: url(../../pics/cases-pics/st-pet/cover.png);
+}
+
+.st-pet__task-pic {
+    width: 50%;
+    min-height: 245px;
+    background-image: url(../../pics/cases-pics/st-pet/task.png);
+    background-position: left;
+}
+
+.st-pet__solution-pic {
+    width: 50%;
+    min-height: 245px;
+    background-image: url(../../pics/cases-pics/st-pet/solution.png);
+}
+
+.st-pet__pack {
+    width: 100%;
+    min-height: 703px;
+    margin: 100px 0;
+    background-image: url(../../pics/cases-pics/st-pet/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.st-pet__mockup {
+    width: 100%;
+    min-height: 1515px;
+    margin: 100px 0 0 0;
+    background-image: url(../../pics/cases-pics/st-pet/mockup.png);
+}

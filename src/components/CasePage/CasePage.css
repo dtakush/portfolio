@@ -1,0 +1,68 @@
+.case-page {
+    width: 89%;
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 70px auto;
+}
+
+.case-page-background {
+    background-color: #fff;
+}
+
+.case-page_section {
+    width: 78%;
+}
+
+.case-page_image {
+    width: 100%;
+    min-height: 587px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.case-page__title {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Gilroy';
+    font-weight: 900;
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.case-page__subtitle {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-family: 'Gilroy';
+    font-weight: 100;
+    color: #000;
+    text-align: left;
+    text-decoration: none;
+    margin: 0 0 15px 0;
+}
+
+.case-page__block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 150px 0 0 0;
+}
+
+.case-page__text {
+    width: 50%;
+    margin: 0 0 0 40px;
+}
+
+.case-page__subtitle:last-of-type {
+    margin: 0;
+}
+
+.case-page__solution {
+    margin: 0 40px 0 0;
+}

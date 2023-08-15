@@ -36,17 +36,18 @@
     padding: 50px 0 0 0;
 }
 
-.about-work_experience{
+.about-work_experience {
     width: 89%;
     max-width: 1150px;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     margin: 0 auto;
 }
 
 .about-work_years {
-    width: 33%;
-    margin: 0 248px 0 0;
+    width: 40%;
+    margin: 0;
 }
 
 .about-work_years:last-of-type {

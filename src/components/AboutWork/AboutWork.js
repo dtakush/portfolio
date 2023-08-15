@@ -23,6 +23,7 @@ function AboutWork(props) {
                                         header={item.header}
                                         speciality={item.speciality}
                                         years={item.years}
+                                        description={item.description}
                                         width={item.width}
                                         yearsWidth={item.yearsWidth}
                                         />
@@ -40,6 +41,7 @@ function AboutWork(props) {
                                         header={item.header}
                                         speciality={item.speciality}
                                         years={item.years}
+                                        description={item.description}
                                         width={item.width}
                                         yearsWidth={item.yearsWidth}
                                         />

@@ -12,7 +12,10 @@
 @import url(./components/AllWorksPage/AllWorksPage.css);
 
 /*CASES*/
+@import url(./components/CasePage/CasePage.css);
 @import url(./components/CASES/PauseTeaPackCasePage.css);
+@import url(./components/CASES/StPetOutdoor.css);
+@import url(./components/CASES/StikersVolost.css);
 
 /* Blocks */
 @import url(./components/Header/Header.css);

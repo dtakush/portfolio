@@ -1,99 +1,31 @@
-.case-page {
-    width: 89%;
-    max-width: 1150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 70px auto;
+
+.tea-pack-pause_cover {
+    background-image: url(../../pics/cases-pics/pause-tea-pack/cover.png);
 }
 
-.case-page-background {
-    background-color: #fff;
+.tea-pack-pause_task-pic {
+    width: 50%;
+    min-height: 245px;
+    background-image: url(../../pics/cases-pics/pause-tea-pack/task.png);
 }
 
-.case-page_section {
-    width: 78%;
+.tea-pack-pause_solution-pic {
+    width: 50%;
+    min-height: 245px;
+    background-image: url(../../pics/cases-pics/pause-tea-pack/solution.png);
 }
 
-.case-page_image {
-    width: 100%;
-    min-height: 473px;
+.tea-pack-pause_pack {
+    margin: 100px 0;
+    background-image: url(../../pics/cases-pics/pause-tea-pack/work.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
-.case-page__cover {
-    background-image: url(../../pics/cases-pics/pause-tea-pack/tea-pack_cover.jpg);
-}
-
-.case-page__block {
+.tea-pack-pause_mockup {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    min-height: 1515px;
     margin: 100px 0 0 0;
-}
-
-.case-page__task-pic {
-    width: 50%;
-    min-height: 100%;
-    background-image: url(../../pics/cases-pics/pause-tea-pack/tea-pack_colors.jpg);
-}
-
-.case-page__text {
-    width: 50%;
-    margin: 0 0 0 40px;
-}
-
-.case-page__title {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    font-family: 'Gilroy';
-    font-weight: 900;
-    color: #000;
-    text-align: left;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 0 10px 0;
-}
-
-.case-page__subtitle {
-    font-size: 1rem;
-    line-height: 1.2rem;
-    font-family: 'Gilroy';
-    font-weight: 100;
-    color: #000;
-    text-align: left;
-    text-decoration: none;
-    margin: 0 0 10px 0;
-}
-
-.case-page__subtitle:last-of-type {
-    margin: 0;
-}
-
-.case-page__solution {
-    margin: 0 40px 0 0;
-}
-
-.case-page__solution-pic {
-    width: 50%;
-    min-height: 100%;
-    background-image: url(../../pics/cases-pics/pause-tea-pack/tea-pack_sketch.jpg);
-}
-
-.case-page__pack {
-    margin: 100px 0;
-    background-image: url(../../pics/cases-pics/pause-tea-pack/tea-pack_pack.jpg);
-}
-
-.case-page__description {
-    width: 100%;
-}
-
-.case-page__mockup {
-    min-height: 1315px;
-    margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/pause-tea-pack/tea-pack_mockup.jpg);
+    background-image: url(../../pics/cases-pics/pause-tea-pack/mockup.png);
 }
