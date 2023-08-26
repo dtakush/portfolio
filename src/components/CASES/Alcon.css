@@ -1,0 +1,36 @@
+
+.alcon_title {
+    margin-top: 30px;
+}
+
+.alcon_cover {
+    background-image: url(../../pics/cases-pics/alcon/cover.png);
+}
+
+.alcon_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/alcon/task.png);
+}
+
+.alcon_solution-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/alcon/solution.png);
+}
+
+.alcon_pack {
+    min-height: 1234px;
+    margin: 150px 0;
+    background-image: url(../../pics/cases-pics/alcon/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.alcon_mockup {
+    width: 100%;
+    min-height: 429px;
+    margin: 150px 0 50px 0;
+    background-image: url(../../pics/cases-pics/alcon/mockup.png);
+}

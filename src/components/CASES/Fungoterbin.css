@@ -1,0 +1,31 @@
+
+.fungoterbin_title {
+    margin-top: 30px;
+}
+
+.fungoterbin_cover {
+    background-image: url(../../pics/cases-pics/fungoterbin/cover.png);
+}
+
+.fungoterbin_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/fungoterbin/task.png);
+    background-position: left;
+}
+
+.fungoterbin_pack {
+    min-height: 1286px;
+    margin: 150px 0;
+    background-image: url(../../pics/cases-pics/fungoterbin/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fungoterbin_mockup {
+    width: 100%;
+    min-height: 500px;
+    margin: 150px 0 50px 0;
+    background-image: url(../../pics/cases-pics/fungoterbin/mockup.png);
+}

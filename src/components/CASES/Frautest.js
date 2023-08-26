@@ -1,0 +1,64 @@
+import React from 'react';
+
+//Components
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import BtnBack from '../CasePage/BtnBack';
+import BackgroundTop from '../CasePage/BackgroundTop';
+import BackgroundBottom from '../CasePage/BackgroundBottom';
+import BtnUp from '../CasePage/BtnUp';
+
+
+function Frautest(props) {
+
+
+    return (
+        <>
+        <BtnUp
+            scrollTop={props.scrollTop} />
+        <Header />
+        <BackgroundTop />
+        <div className='case-page-background'>
+            <div className='case-page'>
+                <BtnBack />
+
+
+                <div className='case-page_section'>
+                        <div className='case-page_image frautest_cover'></div>
+
+                        <div className='case-page__block'>
+                            <div className='case-page_image frautest_task-pic'></div>
+                            <div className='case-page__text case-page__task'>
+                                <h3 className='case-page__title'>Задача</h3>
+                                <p className='case-page__subtitle'>
+                                Разработать универсальный рекламный модуль для прессы и рекламы в женских уборных в университетах для бренда тестов на беременность Frautest.
+                                </p>
+                                <p className='case-page__subtitle'>
+                                Макет должен быть ориентирован на молодую ЦА 18-25 лет. Необходимо использовать фирменный стиль бренда, но сделать современный макет.
+                                </p>
+
+                                <h3 className='case-page__title frautest_title'>Решение</h3>
+                                <p className='case-page__subtitle'>
+                                Тема тестов на беременность все еще вызывает смущение, особенно у молодых девушек. Нам необходимо показать, что это такая же норма в жизни женщины, как и чашка кофе. Показать на макете разные виды тестов, которые регулярно проходят молодые девушки: учебные, шутливые и другие. Среди этих тестов есть и Frautest, который необходимо также регулярно проходить.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div className='case-page_image frautest_pack'></div>
+
+                        <div className='case-page_image frautest_mockup'></div>
+
+                    </div>
+
+
+
+                </div>
+        </div>
+        <BackgroundBottom />
+        <Footer />
+        </>    
+    )
+}
+
+export default Frautest;

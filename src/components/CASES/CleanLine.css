@@ -1,0 +1,30 @@
+
+.clean-line_title {
+    margin-top: 30px;
+}
+
+.clean-line_cover {
+    background-image: url(../../pics/cases-pics/clean-line/cover.png);
+}
+
+.clean-line_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/clean-line/task.png);
+}
+
+.clean-line_pack {
+    min-height: 1234px;
+    margin: 150px 0;
+    background-image: url(../../pics/cases-pics/clean-line/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.clean-line_mockup {
+    width: 100%;
+    min-height: 429px;
+    margin: 150px 0 50px 0;
+    background-image: url(../../pics/cases-pics/clean-line/mockup.png);
+}

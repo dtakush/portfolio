@@ -1,0 +1,36 @@
+
+.frautest_title {
+    margin-top: 30px;
+}
+
+.frautest_cover {
+    background-image: url(../../pics/cases-pics/frautest/cover.png);
+}
+
+.frautest_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/frautest/task.png);
+}
+
+.frautest_solution-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/frautest/solution.png);
+}
+
+.frautest_pack {
+    min-height: 1234px;
+    margin: 150px 0;
+    background-image: url(../../pics/cases-pics/frautest/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.frautest_mockup {
+    width: 100%;
+    min-height: 1278px;
+    margin: 150px 0 50px 0;
+    background-image: url(../../pics/cases-pics/frautest/mockup.png);
+}

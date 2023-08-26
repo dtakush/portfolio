@@ -18,16 +18,52 @@ const itemsCases = [
       picLink: '/work/dom-22',
     },
     {
+      title: 'Дезринит',
+      subtitle: 'Пресса',
+      picUrl: 'https://i.imgur.com/1VEjYtR.png',
+      picLink: '/work/desrinit',
+    },
+    {
       title: 'St.Pet',
       subtitle: 'Иллюстрация',
       picUrl: 'https://i.imgur.com/PXeS2aF.png',
       picLink: '/work/st-pet',
     },
     {
+      title: 'Boehringer Ingelheim',
+      subtitle: 'Пресса',
+      picUrl: 'https://i.imgur.com/mxMfpAA.png',
+      picLink: '/work/boehringer-ingelheim',
+    },
+    {
+      title: 'Чистая линия',
+      subtitle: 'Пресса',
+      picUrl: 'https://i.imgur.com/Y3FnI6U.png',
+      picLink: '/work/clean-line',
+    },
+    {
       title: 'Заповедник "Волость"',
       subtitle: 'Иллюстрация',
       picUrl: 'https://i.imgur.com/a3FnJmX.png',
       picLink: '/work/volost',
+    },
+    {
+      title: 'Mobiado',
+      subtitle: 'Пресса',
+      picUrl: 'https://i.imgur.com/IJcdYPp.png',
+      picLink: '/work/mobiado-press',
+    },
+    {
+      title: 'Frautest',
+      subtitle: 'Пресса',
+      picUrl: 'https://i.imgur.com/92QZl4m.png',
+      picLink: '/work/frautest',
+    },
+    {
+      title: 'Stada',
+      subtitle: 'Пресса',
+      picUrl: 'https://i.imgur.com/19DsxF7.png',
+      picLink: '/work/fungoterbin',
     },
     {
       title: 'Aist Residence',
@@ -42,6 +78,18 @@ const itemsCases = [
       picLink: '/work/serdce-stolitsy',
     },
     {
+      title: 'Alcon',
+      subtitle: 'Пресса',
+      picUrl: 'https://i.imgur.com/nX0Zycu.png',
+      picLink: '/work/alcon',
+    },
+    {
+      title: 'Долина Сетунь',
+      subtitle: 'Outdoor',
+      picUrl: 'https://i.imgur.com/JOSc2Ih.jpg',
+      picLink: '/work/dolina-setun',
+    },
+    {
       title: 'Клубный Дом на Рогожском',
       subtitle: 'Outdoor',
       picUrl: 'https://i.imgur.com/2WamTzg.jpg',
@@ -52,12 +100,6 @@ const itemsCases = [
       subtitle: 'Outdoor',
       picUrl: 'https://i.imgur.com/8vHCabo.jpg',
       picLink: '/work/horoshovsky',
-    },
-    {
-      title: 'Долина Сетунь',
-      subtitle: 'Outdoor',
-      picUrl: 'https://i.imgur.com/JOSc2Ih.jpg',
-      picLink: '/work/dolina-setun',
     },
 
   ]

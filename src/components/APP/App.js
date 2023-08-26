@@ -28,6 +28,14 @@ import Rogozhsky from '../CASES/Rogozhsky';
 import Horoshovsky from '../CASES/Horoshovsky';
 import DolinaSetun from '../CASES/DolinaSetun';
 import MobiadoOutdoor from '../CASES/MobiadoOutdoor';
+//Press
+import BoehringerIngelheim from '../CASES/BoehringerIngelheim';
+import Alcon from '../CASES/Alcon';
+import MobiadoPress from '../CASES/MobiadoPress';
+import CleanLine from '../CASES/CleanLine';
+import Fungoterbin from '../CASES/Fungoterbin';
+import Frautest from '../CASES/Frautest';
+import Desrinit from '../CASES/Desrinit';
 
 
 
@@ -291,6 +299,48 @@ function App() {
         <Route
           exact path="/work/mobiado-outdoor"
           element={<MobiadoOutdoor
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/boehringer-ingelheim"
+          element={<BoehringerIngelheim
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/alcon"
+          element={<Alcon
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/mobiado-press"
+          element={<MobiadoPress
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/clean-line"
+          element={<CleanLine
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/fungoterbin"
+          element={<Fungoterbin
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/frautest"
+          element={<Frautest
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/desrinit"
+          element={<Desrinit
             scrollTop={scrollTop} />}
         />
         

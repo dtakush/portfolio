@@ -1,0 +1,36 @@
+
+.mobiado-press_title {
+    margin: 30px 0 0 0;
+}
+
+.mobiado-press_cover {
+    background-image: url(../../pics/cases-pics/mobiado-press/cover.png);
+}
+
+.mobiado-press_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/mobiado-press/task.png);
+}
+
+.mobiado-press_solution-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/mobiado-press/solution.png);
+}
+
+.mobiado-press_pack {
+    min-height: 1234px;
+    margin: 150px 0;
+    background-image: url(../../pics/cases-pics/mobiado-press/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mobiado-press_mockup {
+    width: 100%;
+    min-height: 429px;
+    margin: 150px 0 50px 0;
+    background-image: url(../../pics/cases-pics/mobiado-press/mockup.png);
+}
