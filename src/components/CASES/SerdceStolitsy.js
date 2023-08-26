@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function SerdceStolitsy(props) {
-
+    props.scrollTop();
 
     return (
         <>

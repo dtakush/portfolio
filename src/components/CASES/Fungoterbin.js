@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function Fungoterbin(props) {
-
+    props.scrollTop();
 
     return (
         <>

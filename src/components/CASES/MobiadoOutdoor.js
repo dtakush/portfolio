@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function MobiadoOutdoor(props) {
-
+    props.scrollTop();
 
     return (
         <>

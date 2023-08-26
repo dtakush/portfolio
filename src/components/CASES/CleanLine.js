@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function CleanLine(props) {
-
+    props.scrollTop();
 
     return (
         <>

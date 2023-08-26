@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function PauseTeaPackCasePage(props) {
-
+    props.scrollTop();
 
     return (
         <>

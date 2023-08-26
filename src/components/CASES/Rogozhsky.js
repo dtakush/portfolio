@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function Rogozhsky(props) {
-
+    props.scrollTop();
 
     return (
         <>

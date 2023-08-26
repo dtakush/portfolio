@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function StPetOutdoor(props) {
-
+    props.scrollTop();
 
     return (
         <>

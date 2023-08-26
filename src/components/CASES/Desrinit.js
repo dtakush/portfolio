@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function Desrinit(props) {
-
+    props.scrollTop();
 
     return (
         <>

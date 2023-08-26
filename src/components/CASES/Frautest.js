@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function Frautest(props) {
-
+    props.scrollTop();
 
     return (
         <>

@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function MobiadoPress(props) {
-
+    props.scrollTop();
 
     return (
         <>

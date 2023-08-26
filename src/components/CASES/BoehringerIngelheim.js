@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function BoehringerIngelheim(props) {
-
+    props.scrollTop();
 
     return (
         <>

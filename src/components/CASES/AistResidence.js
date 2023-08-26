@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function AistResidence(props) {
-
+    props.scrollTop();
 
     return (
         <>

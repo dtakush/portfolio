@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function StikersVolost(props) {
-
+    props.scrollTop();
 
     return (
         <>

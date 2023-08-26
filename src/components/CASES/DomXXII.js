@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function DomXXII(props) {
-
+    props.scrollTop();
 
     return (
         <>

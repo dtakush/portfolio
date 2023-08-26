@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function Alcon(props) {
-
+    props.scrollTop();
 
     return (
         <>

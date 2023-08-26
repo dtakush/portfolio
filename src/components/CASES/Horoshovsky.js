@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function Horoshovsky(props) {
-
+    props.scrollTop();
 
     return (
         <>

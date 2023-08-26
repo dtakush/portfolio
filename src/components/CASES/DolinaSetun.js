@@ -10,7 +10,7 @@ import BtnUp from '../CasePage/BtnUp';
 
 
 function DolinaSetun(props) {
-
+    props.scrollTop();
 
     return (
         <>
