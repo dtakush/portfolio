@@ -1,12 +1,12 @@
 import React from 'react';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
 //Arrays
 import itemsStudy from '../../vendor/array/itemsStudy';
 import itemsWork from '../../vendor/array/itemsWork';
 import itemsSkills from '../../vendor/array/itemsSkills';
-import itemsWorks from '../../vendor/array/itemsWorks';
+import itemsCases from '../../vendor/array/itemsCases';
 
 //Components
 import MainPage from '../MainPage/MainPage';
@@ -27,12 +27,13 @@ import AistResidence from '../CASES/AistResidence';
 import Rogozhsky from '../CASES/Rogozhsky';
 import Horoshovsky from '../CASES/Horoshovsky';
 import DolinaSetun from '../CASES/DolinaSetun';
+import MobiadoOutdoor from '../CASES/MobiadoOutdoor';
 
 
 
 function App() { 
   //Constants
-  const location = useLocation();
+  //const location = useLocation();
 
 
   //Scroll Button
@@ -45,21 +46,19 @@ function App() {
     }
 
     //Sort Works
-    const [sortedCards, setSortedCards] = React.useState(itemsWorks);
+    const [sortedCards, setSortedCards] = React.useState(itemsCases);
     
     function sortAllWorks () {
       const menuLinks = document.querySelectorAll('.all-work_menu-link');
       menuLinks.forEach((item) => {
-        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
-          item.classList.remove('all-work_menu-link_active');
-        }
+        item.classList.remove('all-work_menu-link_active');
       });
 
       const link = document.getElementById("all-works");
       link.classList.add('all-work_menu-link_active');
 
       const result =[];
-      itemsWorks.forEach((item) => {
+      itemsCases.forEach((item) => {
         setSortedCards([]);
         result.push(item);
         setSortedCards(result);
@@ -69,17 +68,15 @@ function App() {
     function sortIllustration () {
       const menuLinks = document.querySelectorAll('.all-work_menu-link');
       menuLinks.forEach((item) => {
-        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
-          item.classList.remove('all-work_menu-link_active');
-        }
+        item.classList.remove('all-work_menu-link_active');
       });
 
       const link = document.getElementById("illustration");
       link.classList.add('all-work_menu-link_active');
 
       const result = [];
-      itemsWorks.forEach((item) => {
-        if((item.subtitle == 'Иллюстрация')) {
+      itemsCases.forEach((item) => {
+        if((item.subtitle === 'Иллюстрация')) {
           setSortedCards([]);
           result.push(item);
           setSortedCards(result);
@@ -92,17 +89,15 @@ function App() {
     function sortOutdoors () {
       const menuLinks = document.querySelectorAll('.all-work_menu-link');
       menuLinks.forEach((item) => {
-        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
-          item.classList.remove('all-work_menu-link_active');
-        }
+        item.classList.remove('all-work_menu-link_active');
       });
 
       const link = document.getElementById("outdoors");
       link.classList.add('all-work_menu-link_active');
 
       const result = [];
-      itemsWorks.forEach((item) => {
-        if((item.subtitle == 'Outdoor')) {
+      itemsCases.forEach((item) => {
+        if((item.subtitle === 'Outdoor')) {
           setSortedCards([]);
           result.push(item);
           setSortedCards(result);
@@ -115,17 +110,15 @@ function App() {
     function sortPress () {
       const menuLinks = document.querySelectorAll('.all-work_menu-link');
       menuLinks.forEach((item) => {
-        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
-          item.classList.remove('all-work_menu-link_active');
-        }
+        item.classList.remove('all-work_menu-link_active');
       });
 
       const link = document.getElementById("press");
       link.classList.add('all-work_menu-link_active');
 
       const result = [];
-      itemsWorks.forEach((item) => {
-        if((item.subtitle == 'Пресса')) {
+      itemsCases.forEach((item) => {
+        if((item.subtitle === 'Пресса')) {
           setSortedCards([]);
           result.push(item);
           setSortedCards(result);
@@ -138,17 +131,36 @@ function App() {
     function sortAnimation () {
       const menuLinks = document.querySelectorAll('.all-work_menu-link');
       menuLinks.forEach((item) => {
-        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
-          item.classList.remove('all-work_menu-link_active');
-        }
+        item.classList.remove('all-work_menu-link_active');
       });
 
       const link = document.getElementById("animation");
       link.classList.add('all-work_menu-link_active');
 
       const result = [];
-      itemsWorks.forEach((item) => {
-        if((item.subtitle == 'Анимация')) {
+      itemsCases.forEach((item) => {
+        if((item.subtitle === 'Анимация')) {
+          setSortedCards([]);
+          result.push(item);
+          setSortedCards(result);
+        } else if (result.length < 1) {
+          setSortedCards([]);
+        }
+      })
+    }
+
+    function sortIdentity () {
+      const menuLinks = document.querySelectorAll('.all-work_menu-link');
+      menuLinks.forEach((item) => {
+        item.classList.remove('all-work_menu-link_active');
+      });
+
+      const link = document.getElementById("identity");
+      link.classList.add('all-work_menu-link_active');
+
+      const result = [];
+      itemsCases.forEach((item) => {
+        if((item.subtitle === 'Айдентика')) {
           setSortedCards([]);
           result.push(item);
           setSortedCards(result);
@@ -161,17 +173,15 @@ function App() {
     function sortWeb () {
       const menuLinks = document.querySelectorAll('.all-work_menu-link');
       menuLinks.forEach((item) => {
-        if (item.classList == 'all-work_menu-link all-work_menu-link_active') {
-          item.classList.remove('all-work_menu-link_active');
-        }
+        item.classList.remove('all-work_menu-link_active');
       });
 
       const link = document.getElementById("web");
       link.classList.add('all-work_menu-link_active');
 
       const result = [];
-      itemsWorks.forEach((item) => {
-        if((item.subtitle == 'Веб-дизайн')) {
+      itemsCases.forEach((item) => {
+        if((item.subtitle === 'Веб-дизайн')) {
           setSortedCards([]);
           result.push(item);
           setSortedCards(result);
@@ -219,6 +229,7 @@ function App() {
             onSortOutdoors={sortOutdoors}
             onSortPress={sortPress}
             onSortAnimation={sortAnimation}
+            onSortIdentity={sortIdentity}
             onSortWeb={sortWeb}
             cards={sortedCards} />}
         />
@@ -274,6 +285,12 @@ function App() {
         <Route
           exact path="/work/dolina-setun"
           element={<DolinaSetun
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/mobiado-outdoor"
+          element={<MobiadoOutdoor
             scrollTop={scrollTop} />}
         />
         
