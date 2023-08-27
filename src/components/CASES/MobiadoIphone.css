@@ -1,0 +1,29 @@
+
+.mobiado-iphone_title {
+    margin-top: 30px;
+}
+
+.mobiado-iphone_cover {
+    background-image: url(../../pics/cases-pics/mobiado-iphone/cover.png);
+}
+
+.mobiado-iphone_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/mobiado-iphone/task.png);
+}
+
+.mobiado-iphone_solution-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/mobiado-iphone/solution.png);
+}
+
+.mobiado-iphone_pack {
+    min-height: 2007px;
+    margin: 150px 0;
+    background-image: url(../../pics/cases-pics/mobiado-iphone/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

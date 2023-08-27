@@ -36,6 +36,11 @@ import CleanLine from '../CASES/CleanLine';
 import Fungoterbin from '../CASES/Fungoterbin';
 import Frautest from '../CASES/Frautest';
 import Desrinit from '../CASES/Desrinit';
+//Branding
+import Svoi from '../CASES/Svoi';
+import MobiadoIphone from '../CASES/MobiadoIphone';
+import Dolfin from '../CASES/Dolfin';
+import HD from '../CASES/HD';
 
 
 
@@ -157,18 +162,18 @@ function App() {
       })
     }
 
-    function sortIdentity () {
+    function sortBranding () {
       const menuLinks = document.querySelectorAll('.all-work_menu-link');
       menuLinks.forEach((item) => {
         item.classList.remove('all-work_menu-link_active');
       });
 
-      const link = document.getElementById("identity");
+      const link = document.getElementById("Branding");
       link.classList.add('all-work_menu-link_active');
 
       const result = [];
       itemsCases.forEach((item) => {
-        if((item.subtitle === 'Айдентика')) {
+        if((item.subtitle === 'Брендинг')) {
           setSortedCards([]);
           result.push(item);
           setSortedCards(result);
@@ -237,7 +242,7 @@ function App() {
             onSortOutdoors={sortOutdoors}
             onSortPress={sortPress}
             onSortAnimation={sortAnimation}
-            onSortIdentity={sortIdentity}
+            onSortBranding={sortBranding}
             onSortWeb={sortWeb}
             cards={sortedCards} />}
         />
@@ -341,6 +346,30 @@ function App() {
         <Route
           exact path="/work/desrinit"
           element={<Desrinit
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/svoi"
+          element={<Svoi
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/mobiado-iphone"
+          element={<MobiadoIphone
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/dolfin"
+          element={<Dolfin
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/hd"
+          element={<HD
             scrollTop={scrollTop} />}
         />
         

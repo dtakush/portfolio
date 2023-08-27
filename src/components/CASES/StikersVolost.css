@@ -19,7 +19,7 @@
 .volost__pack {
     width: 100%;
     min-height: 703px;
-    margin: 0;
+    margin: 50px 0 0 0;
     background-image: url(../../pics/cases-pics/stikers-volost/work.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -29,6 +29,6 @@
 .volost__mockup {
     width: 100%;
     min-height: 600px;
-    margin: 150px 0 50px 0;
+    margin: 50px 0 50px 0;
     background-image: url(../../pics/cases-pics/stikers-volost/mockup.png);
 }

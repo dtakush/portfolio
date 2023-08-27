@@ -6,22 +6,46 @@ const itemsCases = [
       picLink: '/work/pause-tea-pack',
     },
     {
-      title: 'Mobiado',
-      subtitle: 'Outdoor',
-      picUrl: 'https://i.imgur.com/7Hc6wR4.png',
-      picLink: '/work/mobiado-outdoor',
-    },
-    {
       title: 'Дом XXII',
       subtitle: 'Outdoor',
       picUrl: 'https://i.imgur.com/LV7ZNq6.jpg',
       picLink: '/work/dom-22',
     },
     {
+      title: 'Mobiado',
+      subtitle: 'Брендинг',
+      picUrl: 'https://i.imgur.com/IPrikP0.png',
+      picLink: '/work/mobiado-iphone',
+    },
+    {
+      title: 'Свои',
+      subtitle: 'Брендинг',
+      picUrl: 'https://i.imgur.com/prEq8DF.png',
+      picLink: '/work/svoi',
+    },
+    {
       title: 'Дезринит',
       subtitle: 'Пресса',
       picUrl: 'https://i.imgur.com/1VEjYtR.png',
       picLink: '/work/desrinit',
+    },
+    {
+      title: 'Mobiado',
+      subtitle: 'Outdoor',
+      picUrl: 'https://i.imgur.com/7Hc6wR4.png',
+      picLink: '/work/mobiado-outdoor',
+    },
+    {
+      title: 'Долфин',
+      subtitle: 'Брендинг',
+      picUrl: 'https://i.imgur.com/Nodw001.png',
+      picLink: '/work/dolfin',
+    },
+    {
+      title: 'HD Consulting',
+      subtitle: 'Брендинг',
+      picUrl: 'https://i.imgur.com/DFSbxDD.png',
+      picLink: '/work/hd',
     },
     {
       title: 'St.Pet',
@@ -36,16 +60,16 @@ const itemsCases = [
       picLink: '/work/boehringer-ingelheim',
     },
     {
-      title: 'Чистая линия',
-      subtitle: 'Пресса',
-      picUrl: 'https://i.imgur.com/Y3FnI6U.png',
-      picLink: '/work/clean-line',
-    },
-    {
       title: 'Заповедник "Волость"',
       subtitle: 'Иллюстрация',
       picUrl: 'https://i.imgur.com/a3FnJmX.png',
       picLink: '/work/volost',
+    },
+    {
+      title: 'Чистая линия',
+      subtitle: 'Пресса',
+      picUrl: 'https://i.imgur.com/Y3FnI6U.png',
+      picLink: '/work/clean-line',
     },
     {
       title: 'Mobiado',

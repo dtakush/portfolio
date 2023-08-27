@@ -54,7 +54,7 @@ function StikersVolost(props) {
                             <div className='volost__solution-pic case-page_image'></div>
                         </div>
 
-
+                        <div className='volost__pack case-page_image'></div>
                         <div className='volost__mockup case-page_image'></div>
 
                     </div>

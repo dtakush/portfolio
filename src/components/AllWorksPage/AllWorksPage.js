@@ -24,7 +24,7 @@ function AllWorksPage(props) {
                             <a id='outdoors' className='all-work_menu-link' onClick={props.onSortOutdoors}>Outdoors</a>
                             <a id='press' className='all-work_menu-link' onClick={props.onSortPress}>Пресса</a>
                             <a id='animation' className='all-work_menu-link' onClick={props.onSortAnimation}>Анимация</a>
-                            <a id='identity' className='all-work_menu-link' onClick={props.onSortIdentity}>Айдентика</a>
+                            <a id='Branding' className='all-work_menu-link' onClick={props.onSortBranding}>Брендинг</a>
                             <a id='web' className='all-work_menu-link' onClick={props.onSortWeb}>Веб-дизайн</a>
                         </div>
 
