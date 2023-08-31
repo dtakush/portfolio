@@ -1,0 +1,20 @@
+
+.familia-video_title {
+    margin-top: 30px;
+}
+
+.familia-video_cover {
+    background-image: url(../../pics/cases-pics/familia-video/cover.png);
+}
+
+.familia-video_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/familia-video/task.png);
+}
+
+.familia-video_video {
+    margin: 100px 0;
+    min-width: 100%;
+    min-height: 400px;
+}

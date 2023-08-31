@@ -41,6 +41,12 @@ import Svoi from '../CASES/Svoi';
 import MobiadoIphone from '../CASES/MobiadoIphone';
 import Dolfin from '../CASES/Dolfin';
 import HD from '../CASES/HD';
+import CheckList from '../CASES/CheckList';
+//Animation
+import FamiliaVideo from '../CASES/FamiliaVideo';
+import MovieVideo from '../CASES/MovieVideo';
+import MedinformVideo from '../CASES/MedinformVideo';
+import MayakVideo from '../CASES/MayakVideo';
 
 
 
@@ -194,7 +200,7 @@ function App() {
 
       const result = [];
       itemsCases.forEach((item) => {
-        if((item.subtitle === 'Веб-дизайн')) {
+        if((item.subtitle === 'Digital')) {
           setSortedCards([]);
           result.push(item);
           setSortedCards(result);
@@ -370,6 +376,36 @@ function App() {
         <Route
           exact path="/work/hd"
           element={<HD
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/check-list"
+          element={<CheckList
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/familia-video"
+          element={<FamiliaVideo
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/movie-video"
+          element={<MovieVideo
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/hills-all-legs"
+          element={<MedinformVideo
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/mayak-video"
+          element={<MayakVideo
             scrollTop={scrollTop} />}
         />
         

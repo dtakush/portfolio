@@ -1,0 +1,20 @@
+
+.mayak-video_title {
+    margin-top: 50px;
+}
+
+.mayak-video_cover {
+    background-image: url(../../pics/cases-pics/mayak-video/cover.png);
+}
+
+.mayak-video_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/mayak-video/task.png);
+}
+
+.mayak-video_video {
+    margin: 100px 0;
+    min-width: 100%;
+    min-height: 680px;
+}

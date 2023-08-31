@@ -20,12 +20,11 @@ function AboutWork(props) {
                                 {props.studyCards.slice(0).map((item) => {
                                     return (
                                         <AboutWorkCard
+                                        key={item.key || item.width}
                                         header={item.header}
                                         speciality={item.speciality}
                                         years={item.years}
                                         description={item.description}
-                                        width={item.width}
-                                        yearsWidth={item.yearsWidth}
                                         />
                                         )
                                     })}
@@ -36,14 +35,15 @@ function AboutWork(props) {
                                 <h3 className='about-work_header'>Где работала?</h3>
                                 <div className='about-work_table'>
                                 {props.workCards.slice(0).map((item) => {
+                                    
                                     return (
                                         <AboutWorkCard
+                                        key={item.key || item.width}
                                         header={item.header}
                                         speciality={item.speciality}
                                         years={item.years}
                                         description={item.description}
                                         width={item.width}
-                                        yearsWidth={item.yearsWidth}
                                         />
                                         )
                                     })}
@@ -59,6 +59,7 @@ function AboutWork(props) {
                             {props.skillsCards.slice(0).map((item) => {
                                 return (
                                     <AboutSkillsCard
+                                    key={item.key}
                                     text={item.text}
                                     url={item.url}
                                     percent={item.percent}

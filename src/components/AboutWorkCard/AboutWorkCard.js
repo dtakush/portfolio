@@ -4,7 +4,6 @@ import React from 'react';
 
 
 function AboutWorkCard(props) {
-    const width = props.width;
     
     return (
         <>

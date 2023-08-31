@@ -1,0 +1,30 @@
+
+.check-list_title {
+    margin-top: 30px;
+}
+
+.check-list_cover {
+    background-image: url(../../pics/cases-pics/check-list/cover.png);
+}
+
+.check-list_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/check-list/task.png);
+}
+
+.check-list_pack {
+    min-height: 621px;
+    margin: 150px 0;
+    background-image: url(../../pics/cases-pics/check-list/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.check-list_mockup {
+    width: 100%;
+    min-height: 598px;
+    margin: 150px 0 50px 0;
+    background-image: url(../../pics/cases-pics/check-list/mockup.png);
+}

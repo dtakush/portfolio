@@ -1,0 +1,46 @@
+
+.movie-video_title {
+    margin-top: 30px;
+}
+
+.movie-video_cover {
+    background-image: url(../../pics/cases-pics/movie-video/cover.png);
+}
+
+.movie-video_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/movie-video/task.png);
+}
+
+.movie-video_video-block {
+    margin: 100px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie-video_video {
+    margin: 0 0 60px 0;
+    min-width: 47%;
+    min-height: 300px;
+}
+
+.movie-video_mockups  {
+    width: 100%;
+    min-height: 500px;
+    margin: 50px 0 50px 0;
+}
+
+.movie-video_mockup-1 {
+    background-image: url(../../pics/cases-pics/movie-video/photo-1.jpg);
+}
+
+.movie-video_mockup-2 {
+    background-image: url(../../pics/cases-pics/movie-video/photo-2.jpg);
+}
+
+.movie-video_mockup-3 {
+    background-image: url(../../pics/cases-pics/movie-video/photo-3.jpg);
+}

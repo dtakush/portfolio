@@ -25,7 +25,7 @@ function AllWorksPage(props) {
                             <a id='press' className='all-work_menu-link' onClick={props.onSortPress}>Пресса</a>
                             <a id='animation' className='all-work_menu-link' onClick={props.onSortAnimation}>Анимация</a>
                             <a id='Branding' className='all-work_menu-link' onClick={props.onSortBranding}>Брендинг</a>
-                            <a id='web' className='all-work_menu-link' onClick={props.onSortWeb}>Веб-дизайн</a>
+                            <a id='web' className='all-work_menu-link' onClick={props.onSortWeb}>Digital</a>
                         </div>
 
                         <div className='all-work_block'>
@@ -33,6 +33,7 @@ function AllWorksPage(props) {
                                 {props.cards.slice(0).map((item) => {
                                     return (
                                         <WorksCard
+                                        key={item.key}
                                         title={item.title}
                                         subtitle={item.subtitle}
                                         picUrl={item.picUrl}

@@ -2,7 +2,7 @@
 @import url(./vendor/fonts/fonts.css);
 @import url(./components/page/page.css);
 
-/* Components */
+/* COMPONENTS */
 /* MainPages */
 @import url(./components/APP/App.css);
 @import url(./components/MainPage/MainPage.css);
@@ -12,12 +12,35 @@
 @import url(./components/AllWorksPage/AllWorksPage.css);
 
 
+
+/* Blocks */
+@import url(./components/Header/Header.css);
+@import url(./components/Footer/Footer.css);
+@import url(./components/Illustration/Illustration.css);
+@import url(./components/AboutMe/AboutMe.css);
+@import url(./components/AboutWork/AboutWork.css);
+@import url(./components/AboutWorkCard/AboutWorkCard.css);
+@import url(./components/AboutSkillsCard/AboutSkillsCard.css);
+@import url(./components/ContactBlock/ContactBlock.css);
+@import url(./components/ClientsList/ClientsList.css);
+@import url(./components/WorkCard/WorkCard.css);
+@import url(./components/CasePage/BtnBack.css);
+@import url(./components/CasePage/BackgroundTop.css);
+@import url(./components/CasePage/BackgroundBottom.css);
+@import url(./components/CasePage/BtnUp.css);
+
+
+/* Details */
+
+
+
 /*CASES*/
 @import url(./components/CasePage/CasePage.css);
 /*Illustration*/
 @import url(./components/CASES/PauseTeaPackCasePage.css);
 @import url(./components/CASES/StPetOutdoor.css);
 @import url(./components/CASES/StikersVolost.css);
+@import url(./components/CASES/CheckList.css);
 /*Outdoor*/
 @import url(./components/CASES/SerdceStolitsy.css);
 @import url(./components/CASES/DomXXII.css);
@@ -39,23 +62,8 @@
 @import url(./components/CASES/MobiadoIphone.css);
 @import url(./components/CASES/Dolfin.css);
 @import url(./components/CASES/HD.css);
-
-
-/* Blocks */
-@import url(./components/Header/Header.css);
-@import url(./components/Footer/Footer.css);
-@import url(./components/Illustration/Illustration.css);
-@import url(./components/AboutMe/AboutMe.css);
-@import url(./components/AboutWork/AboutWork.css);
-@import url(./components/AboutWorkCard/AboutWorkCard.css);
-@import url(./components/AboutSkillsCard/AboutSkillsCard.css);
-@import url(./components/ContactBlock/ContactBlock.css);
-@import url(./components/ClientsList/ClientsList.css);
-@import url(./components/WorkCard/WorkCard.css);
-@import url(./components/CasePage/BtnBack.css);
-@import url(./components/CasePage/BackgroundTop.css);
-@import url(./components/CasePage/BackgroundBottom.css);
-@import url(./components/CasePage/BtnUp.css);
-
-
-/* Details */
+/*Animation*/
+@import url(./components/CASES/FamiliaVideo.css);
+@import url(./components/CASES/MovieVideo.css);
+@import url(./components/CASES/MedinformVideo.css);
+@import url(./components/CASES/MayakVideo.css);

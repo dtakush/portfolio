@@ -1,0 +1,20 @@
+
+.hills-all-legs_title {
+    margin-top: 50px;
+}
+
+.hills-all-legs_cover {
+    background-image: url(../../pics/cases-pics/hills-all-legs/cover.png);
+}
+
+.hills-all-legs_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/hills-all-legs/task.png);
+}
+
+.hills-all-legs_video {
+    margin: 100px 0;
+    min-width: 100%;
+    min-height: 680px;
+}
