@@ -28,6 +28,7 @@ import Rogozhsky from '../CASES/Rogozhsky';
 import Horoshovsky from '../CASES/Horoshovsky';
 import DolinaSetun from '../CASES/DolinaSetun';
 import MobiadoOutdoor from '../CASES/MobiadoOutdoor';
+import NovoNordisk from '../CASES/NovoNordisk';
 //Press
 import BoehringerIngelheim from '../CASES/BoehringerIngelheim';
 import Alcon from '../CASES/Alcon';
@@ -47,6 +48,9 @@ import FamiliaVideo from '../CASES/FamiliaVideo';
 import MovieVideo from '../CASES/MovieVideo';
 import MedinformVideo from '../CASES/MedinformVideo';
 import MayakVideo from '../CASES/MayakVideo';
+import RemitVideo from '../CASES/RemitVideo';
+//Digital
+import BoironLanding from '../CASES/BoironLanding';
 
 
 
@@ -406,6 +410,24 @@ function App() {
         <Route
           exact path="/work/mayak-video"
           element={<MayakVideo
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/remit-video"
+          element={<RemitVideo
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/novo-nordisk"
+          element={<NovoNordisk
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/boiron-landing"
+          element={<BoironLanding
             scrollTop={scrollTop} />}
         />
         

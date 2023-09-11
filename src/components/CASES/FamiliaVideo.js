@@ -40,7 +40,7 @@ function FamiliaVideo(props) {
                                 </p> 
                             </div>
                         </div>
-                        <iframe className='familia-video_video' src="https://www.youtube.com/embed/5ZVT_c1_U_0?si=WnuNiI2OlGZ7pKKr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe className='familia-video_video' src="https://www.youtube.com/embed/5ZVT_c1_U_0?si=WnuNiI2OlGZ7pKKr" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
                     </div>
 

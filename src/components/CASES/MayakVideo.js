@@ -43,7 +43,7 @@ function MayakVideo(props) {
                                 </p>
                             </div>
                         </div>
-                        <iframe className='mayak-video_video' src="https://www.youtube.com/embed/y-s5D2d_w_Q?si=piiJ9j8iF9zk8YXd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe className='mayak-video_video' src="https://www.youtube.com/embed/eHtVS0QVVig?si=W-2zUFzK6mZh-Kmy" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
                     </div>
 

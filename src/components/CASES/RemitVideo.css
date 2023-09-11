@@ -1,0 +1,20 @@
+
+.remit-video_title {
+    margin-top: 50px;
+}
+
+.remit-video_cover {
+    background-image: url(../../pics/cases-pics/remit-video/cover.png);
+}
+
+.remit-video_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/remit-video/task.png);
+}
+
+.remit-video_video {
+    margin: 150px 0;
+    min-width: 100%;
+    min-height: 500px;
+}

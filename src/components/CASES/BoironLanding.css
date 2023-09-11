@@ -1,0 +1,38 @@
+
+.boiron-landing_title {
+ margin-top: 50px;
+}
+
+.boiron-landing_cover {
+    background-image: url(../../pics/cases-pics/boiron-landing/cover.png);
+}
+
+.boiron-landing_task-pic {
+    background-position: top;
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/boiron-landing/solution.png);
+}
+
+.boiron-landing_pack {
+    min-height: 1280px;
+    margin: 150px 0 50px 0;
+    background-image: url(../../pics/cases-pics/boiron-landing/work.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.boiron-landing_landing {
+    width: 100%;
+    min-height: 1850px;
+    margin: 100px 0 0 0;
+    background-image: url(../../pics/cases-pics/boiron-landing/landing.png);
+}
+
+.boiron-landing_mockup {
+    width: 100%;
+    min-height: 1093px;
+    margin: 0;
+    background-image: url(../../pics/cases-pics/boiron-landing/mockup.png);
+}

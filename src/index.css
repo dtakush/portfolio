@@ -49,6 +49,7 @@
 @import url(./components/CASES/Horoshovsky.css);
 @import url(./components/CASES/DolinaSetun.css);
 @import url(./components/CASES/MobiadoOutdoor.css);
+@import url(./components/CASES/NovoNordisk.css);
 /*Press*/
 @import url(./components/CASES/BoehringerIngelheim.css);
 @import url(./components/CASES/Alcon.css);
@@ -67,3 +68,6 @@
 @import url(./components/CASES/MovieVideo.css);
 @import url(./components/CASES/MedinformVideo.css);
 @import url(./components/CASES/MayakVideo.css);
+@import url(./components/CASES/RemitVideo.css);
+/*Digital*/
+@import url(./components/CASES/BoironLanding.css);
