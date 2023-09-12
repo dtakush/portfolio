@@ -14,6 +14,7 @@ import AboutPage from '../AboutPage/AboutPage';
 import ContactPage from '../ContactPage/ContactPage';
 import ClientsPage from '../ClientsPage/ClientsPage';
 import AllWorksPage from '../AllWorksPage/AllWorksPage';
+import Error from '../Error/Error';
 
 //CASES
 //Illustration
@@ -57,6 +58,9 @@ import BoironLanding from '../CASES/BoironLanding';
 function App() { 
   //Constants
   //const location = useLocation();
+  //Variables
+  const [isPopupOpen, setIsPopupOpen] = React.useState(false);
+  console.log(isPopupOpen);
 
 
   //Scroll Button
@@ -66,6 +70,22 @@ function App() {
           left: 0,
           behavior: 'smooth',
       })
+    }
+
+    //Open Popup
+    function handleClientClick() {
+      setIsPopupOpen(!isPopupOpen);
+    }
+
+    //close Popup
+    function closePopup() {
+      setIsPopupOpen(false);
+
+      document.removeEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          closePopup();
+        }
+        });
     }
 
     //Sort Works
@@ -235,7 +255,10 @@ function App() {
 
         <Route
           exact path="/clients"
-          element={<ClientsPage />}
+          element={<ClientsPage
+            onClose={closePopup}
+            isOpen={isPopupOpen}
+            onEmptyClientClick={handleClientClick} />}
         />
 
         <Route
@@ -430,6 +453,11 @@ function App() {
           element={<BoironLanding
             scrollTop={scrollTop} />}
         />
+
+        <Route
+          path="*"
+          element={<Error />}
+        />
         
       </Routes>
       
@@ -438,7 +466,5 @@ function App() {
 }
 
 export default App;
-//ERROR
-//<Route path="*" element={<Error/>}/>
 
  

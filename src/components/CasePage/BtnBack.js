@@ -11,7 +11,7 @@ function BtnBack() {
         <>
             <NavLink  to='/work' className='case-page_menu-link' id="btnBack">
                 <div className='case-page__back-arrow'></div>
-                <p className='case-page_menu-text'>Назад</p>
+                <p className='case-page_menu-text'>Каталог</p>
             </NavLink>
         </>    
     )

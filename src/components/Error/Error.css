@@ -1,0 +1,62 @@
+.error_block {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_header {
+    font-size: 15rem;
+    font-weight: 900;
+    font-family: 'Gilroy';
+    line-height: 10rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 150px 0 0 0;
+}
+
+.error_text {
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Gilroy';
+    line-height: 1.5rem;
+    text-transform: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0 0 0;
+}
+
+.error_link {
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Gilroy';
+    line-height: 1.5rem;
+    text-decoration: none;
+    text-transform: none;
+    color: #000;
+    background-color: #A3F937;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.error_image {
+    width: 400px;
+    min-height: 250px;
+    background-image: url(../../pics/dog.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

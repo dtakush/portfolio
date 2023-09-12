@@ -10,6 +10,7 @@
 @import url(./components/ClientsPage/ClientsPage.css);
 @import url(./components/ContactPage/ContactPage.css);
 @import url(./components/AllWorksPage/AllWorksPage.css);
+@import url(./components/Error/Error.css);
 
 
 
@@ -28,9 +29,8 @@
 @import url(./components/CasePage/BackgroundTop.css);
 @import url(./components/CasePage/BackgroundBottom.css);
 @import url(./components/CasePage/BtnUp.css);
+@import url(./components/ClientPopup/ClientPopup.css);
 
-
-/* Details */
 
 
 

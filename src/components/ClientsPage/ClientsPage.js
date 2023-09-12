@@ -4,13 +4,18 @@ import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import ClientsList from '../ClientsList/ClientsList';
+import ClientPopup from '../ClientPopup/ClientPopup';
 
 
-function ClientsPage() {
+function ClientsPage(props) {
     return (
         <>
             <Header />
-            <ClientsList />
+            <ClientPopup
+            isOpen={props.isOpen}
+            onClose={props.onClose} />
+            <ClientsList
+            onEmptyClientClick={props.onEmptyClientClick} />
             <Footer />
         </>    
     )
