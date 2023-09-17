@@ -60,7 +60,6 @@ function App() {
   //const location = useLocation();
   //Variables
   const [isPopupOpen, setIsPopupOpen] = React.useState(false);
-  console.log(isPopupOpen);
 
 
   //Scroll Button

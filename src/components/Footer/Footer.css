@@ -6,12 +6,12 @@
 }
 
 .footer__container_main {
-    max-width: 1150px;
+    width: 1150px;
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: left;
-    margin: 0 auto;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 auto 20px auto;
     transition: .5s ease-in-out;
 }
 
@@ -31,14 +31,17 @@
     font-weight: 300;
     text-align: left;
     color: #fff;
-    margin: 79px 13px 20px 0;
+    margin: 79px 13px 0 0;
 }
 
 .footer__line_main {
-    width: 100vh;
-    height: 1px;
-    background-color: #fff;
-    margin: auto 0 27px;
+    width: 1000px;
+    min-height: 128px;
+    background-image: url(../../pics/dog_line.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .3s ease-in-out;
 }
 
 .footer__line_small {
@@ -67,4 +70,36 @@
 
 .footer__link:last-of-type {
     margin: 0;
+}
+
+@media screen and (max-width: 1240px) {
+    .footer__container_main {
+        width: 80%;
+    }
+
+    .footer__line_main {
+        min-height: 150px;
+        width: 85%;
+        background-image: url(../../pics/dog_line_medium.png);
+        display: flex;
+        flex-direction: column;
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer__container_main {
+        width: 90%;
+        margin: 0 0 20px auto;
+    }
+
+    .footer__line_main {
+        min-height: 150px;
+        width: 80%;
+        background-image: url(../../pics/dog_line_small.png);
+        display: flex;
+        flex-direction: column;
+        background-position: bottom;
+        overflow: hidden;
+    }
 }
