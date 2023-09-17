@@ -50,6 +50,7 @@
     background-color: #A3F937;
     text-align: center;
     margin: 20px 0 0 0;
+    cursor: url('../../pics/coursor_link.svg'), auto;
 }
 
 .error_image {

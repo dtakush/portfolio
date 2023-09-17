@@ -31,7 +31,7 @@ function CleanLine(props) {
                             <div className='case-page__text case-page__task'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
-                                Разработать рекламный модуль для прессы для геля для душа с ирисом и эфирными маслами для бренда Чистая линия.
+                                Разработать рекламный модуль бренда Чистая линия. Продукт - гель для душа с ирисом и эфирными маслами. Атмосфера должна быть легкой, ненавязчивой, цветущей.
                                 </p>
 
                                 <h3 className='case-page__title clean-line_title'>Решение</h3>

@@ -31,7 +31,7 @@ function Alcon(props) {
                             <div className='case-page__text case-page__task'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
-                                Разработать рекламный модуль для прессы для бренда однодневных контактных линз Dailies Total 1 компании Alcon.
+                                Разработать рекламный модуль в прессу бренда однодневных контактных линз Dailies Total 1 компании Alcon.
                                 </p>
                                 <p className='case-page__subtitle'>
                                 Необходимо показать, что эти линзы отличаются высокой увлажненностью и комфортом ношения.
