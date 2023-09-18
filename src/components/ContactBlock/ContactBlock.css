@@ -1,5 +1,6 @@
 .contact-block {
-    width: 1150px;
+    width: 80%;
+    max-width: 1150px;
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
@@ -41,4 +42,44 @@
     text-decoration: none;
     margin: 0;
     cursor: url('../../pics/coursor_link.svg'), auto;
+}
+
+@media screen and (max-width: 1240px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    .contact-block {
+        width: 80%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+        margin: auto;
+        padding: 100px 0 0 0;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    .contact-block_table {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .contact-block_line {
+        opacity: 0;
+    }
+
+    .contact-block_header {
+        font-size: 1.5rem;
+        line-height: 4rem;
+    }
+
+    .contact-block_text {
+        font-size: 1.5rem;
+        line-height: 4rem;
+    }
+
+    .contact-block_table:first-of-type {
+        margin: 0;
+    }
 }

@@ -34,7 +34,7 @@ function ContactBlock() {
                 <div className='contact-block_table'>
                     <h3 className='contact-block_header'>Email</h3>
                     <div className='contact-block_line' style={{width: 65}}></div>
-                    <a  className='contact-block_text' href="mailto:dashatakush@yandex.ru?subject=Вопрос по HTML" target='_blanc'>dashatakush@yandex.ru</a>
+                    <a  className='contact-block_text' href="mailto:dashatakush@yandex.ru?subject=Письмо с сайта" target='_blanc'>dashatakush@yandex.ru</a>
                 </div>
             </div>
             
