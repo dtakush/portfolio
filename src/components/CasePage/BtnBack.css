@@ -32,3 +32,9 @@
     text-decoration: none;
     margin: 0 0 0 6px;
 }
+
+@media screen and (max-width: 1240px) {
+    .case-page_menu-link {
+        display: none;
+    }
+}

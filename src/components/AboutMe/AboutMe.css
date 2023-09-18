@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: row;
     margin: 150px auto;
+    transition: .3s ease-in-out;
 }
 
 .about-me_image {
@@ -40,4 +41,35 @@
 
 .about-me_text:first-of-type {
     margin: 35px 0 0;
+}
+
+@media screen and (max-width: 1240px) {
+    .about-me {
+        width: 80%;
+    }
+
+    .about-me_text {
+        font-size: .8rem;
+    }
+
+    .about-me_description {
+        margin: 0 0 0 70px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-me {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 100px auto;
+    }
+
+    .about-me_image {
+        width: 100%;
+        min-height: 500px;
+    }
+
+    .about-me_description {
+        margin: 50px 0 0 0;
+    }
 }

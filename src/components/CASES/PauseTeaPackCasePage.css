@@ -29,3 +29,24 @@
     margin: 100px 0 0 0;
     background-image: url(../../pics/cases-pics/pause-tea-pack/mockup.png);
 }
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .tea-pack-pause_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .tea-pack-pause_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .tea-pack-pause_mockup {
+        min-height: 1000px;
+    }
+}

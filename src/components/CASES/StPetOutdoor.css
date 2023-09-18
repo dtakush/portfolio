@@ -32,3 +32,24 @@
     margin: 100px 0 0 0;
     background-image: url(../../pics/cases-pics/st-pet/mockup.png);
 }
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .st-pet__task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .st-pet__solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .st-pet__mockup {
+        min-height: 1000px;
+    }
+}

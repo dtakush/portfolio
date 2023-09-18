@@ -47,3 +47,20 @@
     margin: 100px 0 0 0;
     background-image: url(../../pics/cases-pics/novo-nordisk/mockup.png);
 }
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .novo-nordisk_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .novo-nordisk_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+}

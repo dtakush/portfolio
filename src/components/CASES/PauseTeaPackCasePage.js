@@ -38,7 +38,7 @@ function PauseTeaPackCasePage(props) {
 
                         <div className='case-page__block'>
                             <div className='case-page__text case-page__solution'>
-                                <h3 className='case-page__title'>Решение</h3>
+                                <h3 className='case-page__title case-page__title__solution'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Травы, содержащиеся в чае прорастают среди силуэта большого города, они ставят на паузу все заботы и печали. Сразу понятно, что это чай для вечернего времени наедине с собой или книгой.
                                 </p>

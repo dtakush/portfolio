@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import Illustration from '../Illustration/Illustration';
 
 function MainPage() {
+    
     return (
         <>
             <Header />

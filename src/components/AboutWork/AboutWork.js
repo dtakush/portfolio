@@ -32,7 +32,7 @@ function AboutWork(props) {
                             </div>
 
                             <div className='about-work_years'>
-                                <h3 className='about-work_header'>Где работала?</h3>
+                                <h3 className='about-work_header about-work_header__work'>Где работала?</h3>
                                 <div className='about-work_table'>
                                 {props.workCards.slice(0).map((item) => {
                                     
@@ -79,4 +79,3 @@ function AboutWork(props) {
 }
 
 export default AboutWork;
-

@@ -27,3 +27,24 @@
     margin: 100px 0 0 0;
     background-image: url(../../pics/cases-pics/aist-residence/mockup.png);
 }
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .aist-residence_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .aist-residence_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .aist-residence_mockup {
+        min-height: 1000px;
+    }
+}

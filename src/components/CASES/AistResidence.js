@@ -22,7 +22,6 @@ function AistResidence(props) {
             <div className='case-page'>
                 <BtnBack />
 
-
                 <div className='case-page_section'>
                         <div className='case-page_image aist-residence_cover'></div>
 

@@ -29,3 +29,23 @@
     text-decoration: none;
     margin: 7px 0 7px 12px;
 }
+
+@media screen and (max-width: 1240px) {
+    .about-work_load-frame {
+        width: 31%;
+    }
+
+    .about-work_load-text{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-work_load-frame {
+        width: 100%;
+    }
+
+    .about-work_load-text{
+        font-size: 1rem;
+    }
+}

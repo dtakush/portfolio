@@ -7,6 +7,7 @@ import Illustration from '../Illustration/Illustration';
 import ContactBlock from '../ContactBlock/ContactBlock';
 
 function ContactPage() {
+    
     return (
         <>
             <Header />

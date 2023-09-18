@@ -28,3 +28,28 @@
     margin: 150px 0 50px 0;
     background-image: url(../../pics/cases-pics/check-list/mockup.png);
 }
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .check-list_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .check-list_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .check-list_pack {
+        min-height: 430px;
+    }
+
+    .check-list_mockup {
+        min-height: 450px;
+    }
+}

@@ -10,6 +10,7 @@
     justify-content: center;
     visibility: hidden;
     opacity: 0;
+    transition: .3s ease-in-out;
 }
 
 .client-popup_opened {
@@ -25,9 +26,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: .3s ease-in-out;
 }
 
 .client-popup_close-button {
@@ -42,8 +44,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    left: 215px;
+    left: 480px;
+    top: -100px;
     cursor: url('../../pics/coursor_link.svg'), auto;
+    transition: .3s ease-in-out;
 }
 
 .client-popup_text {
@@ -55,4 +59,26 @@
     color: #000;
     text-align: left;
     text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+    .client-popup {
+        width: 300px;
+        min-height: 200px;
+    }
+
+    .client-popup_text {
+        width: 82%;
+        font-size: 1rem;
+        line-height: 1rem;
+        margin: 0;
+    }
+
+    .client-popup_close-button {
+        width: 22px;
+        min-height: 22px;
+        left: 300px;
+        top: -50px;
+    }
 }

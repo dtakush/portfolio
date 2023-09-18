@@ -32,3 +32,24 @@
     margin: 50px 0 50px 0;
     background-image: url(../../pics/cases-pics/stikers-volost/mockup.png);
 }
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .volost__task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .volost__solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .volost__mockup {
+        min-height: 400px;
+    }
+}

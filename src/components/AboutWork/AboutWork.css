@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: row;
     padding: 50px 0 0 0;
+    transition: .3s ease-in-out;
 }
 
 .about-work_experience {
@@ -43,6 +44,7 @@
     justify-content: space-between;
     flex-direction: row;
     margin: 0 auto;
+    transition: .3s ease-in-out;
 }
 
 .about-work_years {
@@ -83,4 +85,37 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1240px) {
+    .about-work_experience {
+        width: 80%;
+    }
+
+    .about-work_years {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-work_experience {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .about-work_years {
+        width: 100%;
+    }
+
+    .about-work_header__work {
+        margin-top: 150px;
+    }
+
+    .about-work_skills-table {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }

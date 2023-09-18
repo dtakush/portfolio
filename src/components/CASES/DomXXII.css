@@ -39,3 +39,20 @@
     margin: 100px 0 0 0;
     background-image: url(../../pics/cases-pics/dom-22/mockup.png);
 }
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .dom-22_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .dom-22_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+}

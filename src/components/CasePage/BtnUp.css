@@ -1,7 +1,7 @@
 .btn-up {
     position: fixed;
     left: 15%;
-    bottom: 120px;
+    bottom: 100px;
     width: 80px;
     height: 80px;
     background-image: url(../../pics/btnUp.png);
@@ -22,4 +22,11 @@
 
 .btn-up_hide {
     display: none;
+}
+
+
+@media screen and (max-width: 1240px) {
+    .btn-up {
+        display: none;
+    }
 }

@@ -35,3 +35,10 @@
 .clients-list::-webkit-scrollbar-thumb {
     background-color: #A3F937;
   }
+
+  @media screen and (max-width: 800px) {
+    .clients-list {
+      width: 80%;
+      margin: 72px auto;
+    }
+  }
