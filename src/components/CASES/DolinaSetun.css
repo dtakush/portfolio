@@ -1,6 +1,6 @@
 
 .dolina-setun_cover {
-    background-image: url(../../pics/cases-pics/dolina-setun/cover.png);
+    width: 100%;
 }
 
 .dolina-setun_task-pic {
@@ -17,19 +17,13 @@
 }
 
 .dolina-setun_pack {
-    min-height: 448px;
-    margin: 150px 0 150px 0;
-    background-image: url(../../pics/cases-pics/dolina-setun/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .dolina-setun_mockup {
     width: 100%;
-    min-height: 1344px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/dolina-setun/mockup.png);
 }
 
 @media screen and (max-width: 1240px) {

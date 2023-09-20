@@ -24,7 +24,7 @@ function CheckList(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image check-list_cover'></div>
+                <img className='aist-residence_cover' src={require("../../pics/cases-pics/check-list/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image check-list_task-pic'></div>
@@ -44,9 +44,8 @@ function CheckList(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image check-list_pack'></div>
-
-                        <div className='case-page_image check-list_mockup'></div>
+                        <img className='check-list_pack' src={require("../../pics/cases-pics/check-list/work.png")} alt='Макет' />
+                        <img className='check-list_mockup' src={require("../../pics/cases-pics/check-list/mockup.png")} alt='Мокап' />
 
                     </div>
 

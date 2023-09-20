@@ -4,7 +4,7 @@
 }
 
 .dolfin_cover {
-    background-image: url(../../pics/cases-pics/dolfin/cover.png);
+    width: 100%;
 }
 
 .dolfin_task-pic {
@@ -14,19 +14,13 @@
 }
 
 .dolfin_pack {
-    min-height: 1427px;
-    margin: 150px 0;
-    background-image: url(../../pics/cases-pics/dolfin/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .dolfin_mockup {
     width: 100%;
-    min-height: 1030px;
-    margin: 150px 0 50px 0;
-    background-image: url(../../pics/cases-pics/dolfin/mockup.png);
+    margin: 100px 0 0 0;
 }
 
 @media screen and (max-width: 1240px) {
@@ -34,6 +28,10 @@
 }
 
 @media screen and (max-width: 800px) {
+    .dolfin_pack {
+        width: 80%;
+    }
+
     .dolfin_task-pic {
         width: 100%;
         min-height: 300px;

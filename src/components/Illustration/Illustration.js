@@ -8,7 +8,7 @@ function Illustration() {
 
     return (
         <>
-            {currentPath == '/' ?
+            {currentPath === '/' ?
                 (<div className='illustration'></div>)
             :
                 (<div className='illustration illustration__small'></div>)

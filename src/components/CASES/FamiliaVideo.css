@@ -4,7 +4,7 @@
 }
 
 .familia-video_cover {
-    background-image: url(../../pics/cases-pics/familia-video/cover.png);
+    width: 100%;
 }
 
 .familia-video_task-pic {
@@ -20,9 +20,7 @@
 }
 
 @media screen and (max-width: 1240px) {
-    .familia-video_cover {
-        min-height: 500px;
-    }
+
 }
 
 @media screen and (max-width: 800px) {

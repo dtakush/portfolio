@@ -24,7 +24,7 @@ function Fungoterbin(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image fungoterbin_cover'></div>
+                    <img className='fungoterbin_cover' src={require("../../pics/cases-pics/fungoterbin/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image fungoterbin_task-pic'></div>
@@ -44,9 +44,8 @@ function Fungoterbin(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image fungoterbin_pack'></div>
-
-                        <div className='case-page_image fungoterbin_mockup'></div>
+                        <img className='fungoterbin_pack' src={require("../../pics/cases-pics/fungoterbin/work.png")} alt='Макет' />
+                        <img className='fungoterbin_mockup' src={require("../../pics/cases-pics/fungoterbin/mockup.png")} alt='Мокап' />
 
                     </div>
 

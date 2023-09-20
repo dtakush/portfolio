@@ -24,7 +24,7 @@ function MobiadoOutdoor(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image mobiado-outdoor_cover'></div>
+                    <img className='mobiado-outdoor_cover' src={require("../../pics/cases-pics/mobiado-outdoor/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image mobiado-outdoor_task-pic'></div>
@@ -44,11 +44,9 @@ function MobiadoOutdoor(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image mobiado-outdoor_image_1'></div>
-
-                        <div className='case-page_image mobiado-outdoor_image_2'></div>
-
-                        <div className='case-page_image mobiado-outdoor_mockup'></div>
+                        <img className='mobiado-outdoor_image_1' src={require("../../pics/cases-pics/mobiado-outdoor/work.png")} alt='Макет' />
+                        <img className='mobiado-outdoor_image_2' src={require("../../pics/cases-pics/mobiado-outdoor/work-1.png")} alt='Макет' />
+                        <img className='mobiado-outdoor_mockup' src={require("../../pics/cases-pics/mobiado-outdoor/mockup.png")} alt='Мокап' />
 
                     </div>
 

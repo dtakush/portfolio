@@ -24,7 +24,7 @@ function FamiliaVideo(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image familia-video_cover'></div>
+                <img className='familia-video_cover' src={require("../../pics/cases-pics/familia-video/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image familia-video_task-pic'></div>

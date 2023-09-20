@@ -24,7 +24,7 @@ function BoehringerIngelheim(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image boehringer-ingelheim_cover'></div>
+                    <img className='boehringer-ingelheim_cover' src={require("../../pics/cases-pics/boehringer-ingelheim/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image boehringer-ingelheim_task-pic'></div>
@@ -49,9 +49,8 @@ function BoehringerIngelheim(props) {
                             <div className='case-page_image boehringer-ingelheim_solution-pic'></div>
                         </div>
 
-                        <div className='case-page_image boehringer-ingelheim_pack'></div>
-
-                        <div className='case-page_image boehringer-ingelheim_mockup'></div>
+                        <img className='boehringer-ingelheim_pack' src={require("../../pics/cases-pics/boehringer-ingelheim/work.png")} alt='Макет' />
+                        <img className='boehringer-ingelheim_mockup' src={require("../../pics/cases-pics/boehringer-ingelheim/mockup.png")} alt='Мокап' />
 
                     </div>
 

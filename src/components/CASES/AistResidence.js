@@ -23,7 +23,8 @@ function AistResidence(props) {
                 <BtnBack />
 
                 <div className='case-page_section'>
-                        <div className='case-page_image aist-residence_cover'></div>
+                    <img className='aist-residence_cover' src={require("../../pics/cases-pics/aist-residence/cover.png")} alt='Обложка' />
+                        
 
                          <div className='case-page__block'>
                             <div className='case-page_image aist-residence_task-pic'></div>
@@ -40,9 +41,8 @@ function AistResidence(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image aist-residence_pack'></div>
-
-                        <div className='case-page_image aist-residence_mockup'></div>
+                        <img className='aist-residence_pack' src={require("../../pics/cases-pics/aist-residence/work.png")} alt='Макет' />
+                        <img className='aist-residence_mockup' src={require("../../pics/cases-pics/aist-residence/mockup.png")} alt='Мокап' />
 
                     </div>
 

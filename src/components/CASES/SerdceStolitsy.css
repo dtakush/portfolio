@@ -4,7 +4,7 @@
 }
 
 .serdce-stolitsy_cover {
-    background-image: url(../../pics/cases-pics/serdce-stolitsy/cover.png);
+    width: 100%;
 }
 
 .serdce-stolitsy_task-pic {
@@ -20,18 +20,13 @@
 }
 
 .serdce-stolitsy_pack {
-    margin: 100px 0;
-    background-image: url(../../pics/cases-pics/serdce-stolitsy/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .serdce-stolitsy_mockup {
     width: 100%;
-    min-height: 1344px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/serdce-stolitsy/mockup.png);
 }
 
 @media screen and (max-width: 1240px) {
@@ -50,7 +45,8 @@
         margin-top: 100px;
     }
 
-    .serdce-stolitsy_mockup {
-        min-height: 1000px;
+
+    .serdce-stolitsy_title {
+        margin-top: 100px;
     }
 }

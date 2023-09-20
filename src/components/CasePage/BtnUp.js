@@ -4,15 +4,7 @@ import React from 'react';
 
 
 function BtnUp(props) {
-    const handlerScrollUp = () => {
-        if (document.body.scrollTop > 0) {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'smooth',
-              });
-        }
-      }
+    
 
     return (
         <>

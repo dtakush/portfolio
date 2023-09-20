@@ -1,33 +1,28 @@
 
 .tea-pack-pause_cover {
-    background-image: url(../../pics/cases-pics/pause-tea-pack/cover.png);
+    width: 100%;
 }
 
 .tea-pack-pause_task-pic {
     width: 50%;
     min-height: 245px;
-    background-image: url(../../pics/cases-pics/pause-tea-pack/task.png);
+    background-image: url(../../pics/cases-pics/tea-pack-pause/task.png);
 }
 
 .tea-pack-pause_solution-pic {
     width: 50%;
     min-height: 245px;
-    background-image: url(../../pics/cases-pics/pause-tea-pack/solution.png);
+    background-image: url(../../pics/cases-pics/tea-pack-pause/solution.png);
 }
 
 .tea-pack-pause_pack {
-    margin: 100px 0;
-    background-image: url(../../pics/cases-pics/pause-tea-pack/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .tea-pack-pause_mockup {
     width: 100%;
-    min-height: 1515px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/pause-tea-pack/mockup.png);
 }
 
 @media screen and (max-width: 1240px) {
@@ -46,7 +41,7 @@
         margin-top: 100px;
     }
 
-    .tea-pack-pause_mockup {
-        min-height: 1000px;
+    .tea-pack-pause_pack {
+        width: 80%;
     }
 }

@@ -4,7 +4,7 @@
 }
 
 .novo-nordisk_cover {
-    background-image: url(../../pics/cases-pics/novo-nordisk/cover.png);
+    width: 100%;
 }
 
 .novo-nordisk_task-pic {
@@ -15,37 +15,23 @@
 }
 
 .novo-nordisk_pack-1 {
-    min-height: 448px;
-    margin: 150px 0 50px 0;
-    background-image: url(../../pics/cases-pics/novo-nordisk/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .novo-nordisk_pack-2 {
-    min-height: 448px;
-    margin: 50px 0 50px 0;
-    background-image: url(../../pics/cases-pics/novo-nordisk/work-1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .novo-nordisk_pack-3 {
-    min-height: 448px;
-    margin: 50px 0 150px 0;
-    background-image: url(../../pics/cases-pics/novo-nordisk/work-2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .novo-nordisk_mockup {
     width: 100%;
-    min-height: 1344px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/novo-nordisk/mockup.png);
 }
 
 @media screen and (max-width: 1240px) {

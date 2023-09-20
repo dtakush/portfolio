@@ -24,7 +24,7 @@ function RemitVideo(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image remit-video_cover'></div>
+                <img className='remit-video_cover' src={require("../../pics/cases-pics/remit-video/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image remit-video_task-pic'></div>

@@ -24,7 +24,7 @@ function Horoshovsky(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image horoshovsky_cover'></div>
+                    <img className='horoshovsky_cover' src={require("../../pics/cases-pics/horoshovsky/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image horoshovsky_task-pic'></div>
@@ -41,9 +41,8 @@ function Horoshovsky(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image horoshovsky_pack'></div>
-
-                        <div className='case-page_image horoshovsky_mockup'></div>
+                        <img className='horoshovsky_pack' src={require("../../pics/cases-pics/horoshovsky/work.png")} alt='Макет' />
+                        <img className='horoshovsky_mockup' src={require("../../pics/cases-pics/horoshovsky/mockup.png")} alt='Мокап' />
 
                     </div>
 

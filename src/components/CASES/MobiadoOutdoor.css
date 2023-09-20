@@ -4,7 +4,7 @@
 }
 
 .mobiado-outdoor_cover {
-    background-image: url(../../pics/cases-pics/mobiado-outdoor/cover.png);
+    width: 100%;
 }
 
 .mobiado-outdoor_task-pic {
@@ -14,28 +14,18 @@
 }
 
 .mobiado-outdoor_image_1 {
-    min-height: 449px;
-    margin: 150px 0;
-    background-image: url(../../pics/cases-pics/mobiado-outdoor/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .mobiado-outdoor_image_2 {
-    min-height: 449px;
-    margin: 0 0 150px 0;
-    background-image: url(../../pics/cases-pics/mobiado-outdoor/work-1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .mobiado-outdoor_mockup {
     width: 100%;
-    min-height: 1344px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/mobiado-outdoor/mockup.png);
 }
 
 @media screen and (max-width: 1240px) {
@@ -52,10 +42,5 @@
         width: 100%;
         min-height: 300px;
         margin-top: 100px;
-    }
-
-    .mobiado-outdoor_mockup {
-        width: 100%;
-        min-height: 1600px;
     }
 }

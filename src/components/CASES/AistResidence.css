@@ -4,7 +4,7 @@
 }
 
 .aist-residence_cover {
-    background-image: url(../../pics/cases-pics/aist-residence/cover.png);
+    width: 100%;
 }
 
 .aist-residence_task-pic {
@@ -14,18 +14,13 @@
 }
 
 .aist-residence_pack {
-    margin: 100px 0;
-    background-image: url(../../pics/cases-pics/aist-residence/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .aist-residence_mockup {
     width: 100%;
-    min-height: 1344px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/aist-residence/mockup.png);
 }
 
 @media screen and (max-width: 1240px) {

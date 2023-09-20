@@ -1,36 +1,29 @@
 
 .volost__cover {
-    background-image: url(../../pics/cases-pics/stikers-volost/cover.png);
+    width: 100%;
 }
 
 .volost__task-pic {
     width: 50%;
     min-height: 245px;
-    background-image: url(../../pics/cases-pics/stikers-volost/task.png);
+    background-image: url(../../pics/cases-pics/volost/task.png);
     background-position: left;
 }
 
 .volost__solution-pic {
     width: 50%;
     min-height: 245px;
-    background-image: url(../../pics/cases-pics/stikers-volost/solution.png);
+    background-image: url(../../pics/cases-pics/volost/solution.png);
 }
 
 .volost__pack {
     width: 100%;
-    min-height: 703px;
-    margin: 50px 0 0 0;
-    background-image: url(../../pics/cases-pics/stikers-volost/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    margin: 100px 0 0 0;
 }
 
 .volost__mockup {
     width: 100%;
-    min-height: 600px;
-    margin: 50px 0 50px 0;
-    background-image: url(../../pics/cases-pics/stikers-volost/mockup.png);
+    margin: 100px 0 0 0;
 }
 
 @media screen and (max-width: 1240px) {
@@ -46,10 +39,14 @@
     .volost__solution-pic {
         width: 100%;
         min-height: 300px;
-        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
-    .volost__mockup {
-        min-height: 400px;
+    .volost__title {
+        margin: 0;
+    }
+
+    .case-page__solution {
+        margin: 0 0 100px 0;
     }
 }

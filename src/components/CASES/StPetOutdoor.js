@@ -24,7 +24,7 @@ function StPetOutdoor(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='st-pet__cover case-page_image'></div>
+                    <img className='st-pet__cover' src={require("../../pics/cases-pics/st-pet/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='st-pet__task-pic case-page_image'></div>
@@ -41,7 +41,7 @@ function StPetOutdoor(props) {
 
                         <div className='case-page__block'>
                             <div className='case-page__text case-page__solution'>
-                                <h3 className='case-page__title'>Решение</h3>
+                                <h3 className='case-page__title st-pet__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Теплый персиковый фирменный цвет St.Pet ассоциируется с доверием, радостью.
                                 </p>
@@ -56,9 +56,8 @@ function StPetOutdoor(props) {
                             <div className='st-pet__solution-pic case-page_image'></div>
                         </div>
 
-                        <div className='st-pet__pack case-page_image'></div>
-
-                        <div className='st-pet__mockup case-page_image'></div>
+                        <img className='st-pet__pack' src={require("../../pics/cases-pics/st-pet/work.png")} alt='Макет' />
+                        <img className='st-pet__mockup' src={require("../../pics/cases-pics/st-pet/mockup.png")} alt='Мокап' />
 
                     </div>
 

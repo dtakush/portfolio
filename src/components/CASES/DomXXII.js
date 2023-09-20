@@ -24,7 +24,7 @@ function DomXXII(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image dom-22_cover'></div>
+                    <img className='dom-22_cover' src={require("../../pics/cases-pics/dom-22/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image dom-22_task-pic'></div>
@@ -50,10 +50,10 @@ function DomXXII(props) {
                             <div className='case-page_image dom-22_solution-pic'></div>
                         </div>
 
-                        <div className='case-page_image dom-22_pack__status'></div>
-                        <div className='case-page_image dom-22_pack__location'></div>
+                        <img className='dom-22_pack__status' src={require("../../pics/cases-pics/dom-22/work.png")} alt='Макет' />
+                        <img className='dom-22_pack__location' src={require("../../pics/cases-pics/dom-22/work-1.png")} alt='Макет' />
+                        <img className='dom-22_mockup' src={require("../../pics/cases-pics/dom-22/mockup.png")} alt='Мокап' />
 
-                        <div className='case-page_image dom-22_mockup'></div>
 
                     </div>
 

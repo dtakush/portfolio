@@ -24,7 +24,7 @@ function BoironLanding(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image boiron-landing_cover'></div>
+                    <img className='boiron-landing_cover' src={require("../../pics/cases-pics/boiron-landing/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image boiron-landing_task-pic'></div>
@@ -41,13 +41,11 @@ function BoironLanding(props) {
                             </div>
                         </div>
 
-                        
-                        <div className='case-page_image boiron-landing_pack'></div>
-                        <div className='case-page_image boiron-landing_landing'></div>
+                        <img className='boiron-landing_pack' src={require("../../pics/cases-pics/boiron-landing/work.png")} alt='Макет' />
+                        <img className='boiron-landing_landing' src={require("../../pics/cases-pics/boiron-landing/landing.png")} alt='Макет' />
+                        <img className='boiron-landing_mockup' src={require("../../pics/cases-pics/boiron-landing/mockup.png")} alt='Мокап' />
 
-                        <div className='case-page_image boiron-landing_mockup'></div>
-
-                    </div>
+                </div>
 
 
 

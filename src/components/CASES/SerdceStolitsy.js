@@ -24,7 +24,7 @@ function SerdceStolitsy(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image serdce-stolitsy_cover'></div>
+                    <img className='serdce-stolitsy_cover' src={require("../../pics/cases-pics/serdce-stolitsy/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image serdce-stolitsy_task-pic'></div>
@@ -41,9 +41,8 @@ function SerdceStolitsy(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image serdce-stolitsy_pack'></div>
-
-                        <div className='case-page_image serdce-stolitsy_mockup'></div>
+                        <img className='serdce-stolitsy_pack' src={require("../../pics/cases-pics/serdce-stolitsy/work.png")} alt='Макет' />
+                        <img className='serdce-stolitsy_mockup' src={require("../../pics/cases-pics/serdce-stolitsy/mockup.png")} alt='Мокап' />
 
                     </div>
 

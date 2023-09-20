@@ -24,7 +24,7 @@ function CleanLine(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image clean-line_cover'></div>
+                <img className='clean-line_cover' src={require("../../pics/cases-pics/clean-line/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image clean-line_task-pic'></div>
@@ -44,9 +44,8 @@ function CleanLine(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image clean-line_pack'></div>
-
-                        <div className='case-page_image clean-line_mockup'></div>
+                        <img className='clean-line_pack' src={require("../../pics/cases-pics/clean-line/work.png")} alt='Макет' />
+                        <img className='clean-line_mockup' src={require("../../pics/cases-pics/clean-line/mockup.png")} alt='Мокап' />
 
                     </div>
 

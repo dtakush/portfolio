@@ -24,7 +24,7 @@ function StikersVolost(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='volost__cover case-page_image'></div>
+                    <img className='volost__cover' src={require("../../pics/cases-pics/volost/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='volost__task-pic case-page_image'></div>
@@ -39,7 +39,7 @@ function StikersVolost(props) {
 
                         <div className='case-page__block'>
                             <div className='case-page__text case-page__solution'>
-                                <h3 className='case-page__title'>Решение</h3>
+                                <h3 className='case-page__title volost__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 За основу я взяла образ птиц Крачка и Зарянка и подготовила 6 эскизов стикеров на разные ситуации, встречающиеся в повседневной жизни.
                                 </p>
@@ -54,8 +54,8 @@ function StikersVolost(props) {
                             <div className='volost__solution-pic case-page_image'></div>
                         </div>
 
-                        <div className='volost__pack case-page_image'></div>
-                        <div className='volost__mockup case-page_image'></div>
+                        <img className='volost__pack' src={require("../../pics/cases-pics/volost/work.png")} alt='Макет' />
+                        <img className='volost__mockup' src={require("../../pics/cases-pics/volost/mockup.png")} alt='Мокап' />
 
                     </div>
 

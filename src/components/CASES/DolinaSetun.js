@@ -24,7 +24,7 @@ function DolinaSetun(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image dolina-setun_cover'></div>
+                <img className='dolina-setun_cover' src={require("../../pics/cases-pics/dolina-setun/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image dolina-setun_task-pic'></div>
@@ -53,9 +53,8 @@ function DolinaSetun(props) {
                             <div className='case-page_image dolina-setun_solution-pic'></div>
                         </div>
 
-                        <div className='case-page_image dolina-setun_pack'></div>
-
-                        <div className='case-page_image dolina-setun_mockup'></div>
+                        <img className='dolina-setun_pack' src={require("../../pics/cases-pics/dolina-setun/work.png")} alt='Макет' />
+                        <img className='dolina-setun_mockup' src={require("../../pics/cases-pics/dolina-setun/mockup.png")} alt='Мокап' />
 
                     </div>
 

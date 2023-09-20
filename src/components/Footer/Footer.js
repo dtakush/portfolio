@@ -7,7 +7,7 @@ function Footer() {
 
     return (
         <>
-            {currentPath == '/' ?
+            {currentPath ==='/' ?
                 (<section className="footer">
                     <div className="footer__container_main">
                         <p className="footer__disclaimer">©Daria Takush 2023</p>

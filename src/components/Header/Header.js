@@ -12,7 +12,7 @@ function Header() {
             <>
                 {currentPath !== '/' ?
                     (<header className="header header_row">
-                        <NavLink to="/" className="header_logo"><img className="header__image" src={logo}/></NavLink>
+                        <NavLink to="/" className="header_logo"><img className="header__image" src={logo} alt="Логотип" /></NavLink>
 
                         <div className="header__links-small">
                             <NavLink to="/about" className="header__link header__link-small">Кто я?</NavLink>
@@ -23,7 +23,7 @@ function Header() {
                     </header>)
                 :
                     (<header className="header header_column">
-                        <NavLink to="/" className="header_logo"><img className="header__image" src={logo}/></NavLink>
+                        <NavLink to="/" className="header_logo"><img className="header__image" src={logo} alt="Логотип" /></NavLink>
 
                         <div className="header__links-main">
                             <NavLink to="/about" className="header__link header__link-main">Кто я?</NavLink>

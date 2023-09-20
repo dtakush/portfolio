@@ -24,7 +24,7 @@ function MobiadoIphone(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image mobiado-iphone_cover'></div>
+                    <img className='mobiado-iphone_cover' src={require("../../pics/cases-pics/mobiado-iphone/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image mobiado-iphone_task-pic'></div>
@@ -52,7 +52,7 @@ function MobiadoIphone(props) {
                             <div className='case-page_image mobiado-iphone_solution-pic'></div>
                         </div>
 
-                        <div className='case-page_image mobiado-iphone_pack'></div>
+                        <img className='mobiado-iphone_pack' src={require("../../pics/cases-pics/mobiado-iphone/work.png")} alt='Макет' />
 
 
                     </div>

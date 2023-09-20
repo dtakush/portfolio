@@ -4,8 +4,8 @@
 }
 
 .rogozhsky_cover {
-    background-image: url(../../pics/cases-pics/rogozhsky/cover.png);
-}
+    width: 100%;
+    margin: 100px 0 0 0;}
 
 .rogozhsky_task-pic {
     width: 50%;
@@ -20,19 +20,13 @@
 }
 
 .rogozhsky_pack {
-    min-height: 700px;
-    margin: 150px 0;
-    background-image: url(../../pics/cases-pics/rogozhsky/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .rogozhsky_mockup {
     width: 100%;
-    min-height: 596px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/rogozhsky/mockup.png);
 }
 
 @media screen and (max-width: 1240px) {
@@ -51,11 +45,8 @@
         margin-top: 100px;
     }
 
-    .rogozhsky_pack {
-        min-height: 500px;
+    .rogozhsky_title {
+        margin-top: 100px;
     }
 
-    .rogozhsky_mockup {
-        min-height: 450px;
-    }
 }

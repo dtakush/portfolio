@@ -24,7 +24,7 @@ function Alcon(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image alcon_cover'></div>
+                <img className='alcon_cover' src={require("../../pics/cases-pics/alcon/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image alcon_task-pic'></div>
@@ -52,9 +52,8 @@ function Alcon(props) {
                             <div className='case-page_image alcon_solution-pic'></div>
                         </div>
 
-                        <div className='case-page_image alcon_pack'></div>
-
-                        <div className='case-page_image alcon_mockup'></div>
+                        <img className='alcon_pack' src={require("../../pics/cases-pics/alcon/work.png")} alt='Макет' />
+                        <img className='alcon_mockup' src={require("../../pics/cases-pics/alcon/mockup.png")} alt='Мокап' />
 
                     </div>
 

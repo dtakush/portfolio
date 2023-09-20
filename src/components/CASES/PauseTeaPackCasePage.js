@@ -24,7 +24,7 @@ function PauseTeaPackCasePage(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image tea-pack-pause_cover'></div>
+                    <img className='tea-pack-pause_cover' src={require("../../pics/cases-pics/tea-pack-pause/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image tea-pack-pause_task-pic'></div>
@@ -53,9 +53,8 @@ function PauseTeaPackCasePage(props) {
                             <div className='case-page_image tea-pack-pause_solution-pic'></div>
                         </div>
 
-                        <div className='case-page_image tea-pack-pause_pack'></div>
-
-                        <div className='case-page_image tea-pack-pause_mockup'></div>
+                        <img className='tea-pack-pause_pack' src={require("../../pics/cases-pics/tea-pack-pause/work.png")} alt='Макет' />
+                        <img className='tea-pack-pause_mockup' src={require("../../pics/cases-pics/tea-pack-pause/mockup.png")} alt='Мокап' />
 
                     </div>
 

@@ -4,7 +4,7 @@
 }
 
 .mobiado-press_cover {
-    background-image: url(../../pics/cases-pics/mobiado-press/cover.png);
+    width: 100%;
 }
 
 .mobiado-press_task-pic {
@@ -20,19 +20,13 @@
 }
 
 .mobiado-press_pack {
-    min-height: 1234px;
-    margin: 150px 0;
-    background-image: url(../../pics/cases-pics/mobiado-press/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .mobiado-press_mockup {
     width: 100%;
-    min-height: 429px;
-    margin: 150px 0 50px 0;
-    background-image: url(../../pics/cases-pics/mobiado-press/mockup.png);
+    margin: 100px 0 0 0;
 }
 
 @media screen and (max-width: 1240px) {
@@ -51,7 +45,7 @@
         margin-top: 100px;
     }
 
-    .mobiado-press_pack {
-        min-height: 850px;
+    .mobiado-press_title {
+        margin: 0;
     }
 }

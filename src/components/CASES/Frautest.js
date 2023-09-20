@@ -24,7 +24,7 @@ function Frautest(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image frautest_cover'></div>
+                    <img className='frautest_cover' src={require("../../pics/cases-pics/frautest/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image frautest_task-pic'></div>
@@ -45,9 +45,8 @@ function Frautest(props) {
                         </div>
 
 
-                        <div className='case-page_image frautest_pack'></div>
-
-                        <div className='case-page_image frautest_mockup'></div>
+                        <img className='frautest_pack' src={require("../../pics/cases-pics/frautest/work.png")} alt='Макет' />
+                        <img className='frautest_mockup' src={require("../../pics/cases-pics/frautest/mockup.png")} alt='Мокап' />
 
                     </div>
 

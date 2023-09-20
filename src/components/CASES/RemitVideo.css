@@ -4,7 +4,7 @@
 }
 
 .remit-video_cover {
-    background-image: url(../../pics/cases-pics/remit-video/cover.png);
+    width: 100%;
 }
 
 .remit-video_task-pic {
@@ -32,6 +32,10 @@
     .remit-video_solution-pic {
         width: 100%;
         min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .remit-video_title {
         margin-top: 100px;
     }
 }

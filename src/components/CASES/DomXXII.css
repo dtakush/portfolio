@@ -1,6 +1,6 @@
 
 .dom-22_cover {
-    background-image: url(../../pics/cases-pics/dom-22/cover.png);
+    width: 100%;
 }
 
 .dom-22_task-pic {
@@ -16,28 +16,18 @@
 }
 
 .dom-22_pack__status {
-    min-height: 448px;
-    margin: 150px 0 50px 0;
-    background-image: url(../../pics/cases-pics/dom-22/work-1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .dom-22_pack__location {
-    min-height: 448px;
-    margin: 0 0 150px 0;
-    background-image: url(../../pics/cases-pics/dom-22/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .dom-22_mockup {
     width: 100%;
-    min-height: 1344px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/dom-22/mockup.png);
 }
 
 @media screen and (max-width: 1240px) {

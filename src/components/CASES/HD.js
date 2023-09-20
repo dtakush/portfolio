@@ -24,7 +24,7 @@ function HD(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image hd_cover'></div>
+                    <img className='hd_cover' src={require("../../pics/cases-pics/hd/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image hd_task-pic'></div>
@@ -47,9 +47,8 @@ function HD(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image hd_pack'></div>
-
-                        <div className='case-page_image hd_mockup'></div>
+                        <img className='hd_pack' src={require("../../pics/cases-pics/hd/work.png")} alt='Макет' />
+                        <img className='hd_mockup' src={require("../../pics/cases-pics/hd/mockup.png")} alt='Мокап' />
 
                     </div>
 

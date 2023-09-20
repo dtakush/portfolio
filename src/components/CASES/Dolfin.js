@@ -24,7 +24,7 @@ function Dolfin(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image dolfin_cover'></div>
+                <img className='dolfin_cover' src={require("../../pics/cases-pics/dolfin/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image dolfin_task-pic'></div>
@@ -44,9 +44,8 @@ function Dolfin(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image dolfin_pack'></div>
-
-                        <div className='case-page_image dolfin_mockup'></div>
+                        <img className='dolfin_pack' src={require("../../pics/cases-pics/dolfin/work.png")} alt='Макет' />
+                        <img className='dolfin_mockup' src={require("../../pics/cases-pics/dolfin/mockup.png")} alt='Мокап' />
 
                     </div>
 

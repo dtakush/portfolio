@@ -1,6 +1,6 @@
 
 .st-pet__cover {
-    background-image: url(../../pics/cases-pics/st-pet/cover.png);
+    width: 100%;
 }
 
 .st-pet__task-pic {
@@ -18,19 +18,12 @@
 
 .st-pet__pack {
     width: 100%;
-    min-height: 703px;
-    margin: 100px 0;
-    background-image: url(../../pics/cases-pics/st-pet/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    margin: 100px 0 0 0;
 }
 
 .st-pet__mockup {
     width: 100%;
-    min-height: 1515px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/st-pet/mockup.png);
 }
 
 @media screen and (max-width: 1240px) {
@@ -46,10 +39,14 @@
     .st-pet__solution-pic {
         width: 100%;
         min-height: 300px;
-        margin-top: 100px;
+        margin-top: 0;
     }
 
-    .st-pet__mockup {
-        min-height: 1000px;
+    .st-pet__title {
+        margin-top: 0;
+    }
+
+    .st-pet__pack {
+        width: 80%;
     }
 }

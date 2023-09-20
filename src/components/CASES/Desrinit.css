@@ -4,7 +4,7 @@
 }
 
 .desrinit_cover {
-    background-image: url(../../pics/cases-pics/desrinit/cover.png);
+    width: 100%;
 }
 
 .desrinit_task-pic {
@@ -19,21 +19,15 @@
     background-image: url(../../pics/cases-pics/desrinit/solution.png);
 }
 
-.desrinit_image {
-    min-height: 618px;
-    margin: 150px 0;
-    background-image: url(../../pics/cases-pics/desrinit/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+.desrinit_pack {
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 
 .desrinit_mockup {
     width: 100%;
-    min-height: 1402px;
-    margin: 150px 0 50px 0;
-    background-image: url(../../pics/cases-pics/desrinit/mockup.png);
+    margin: 100px 0 0 0;
 }
 
 @media screen and (max-width: 1240px) {

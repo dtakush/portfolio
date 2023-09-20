@@ -24,7 +24,7 @@ function MayakVideo(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image mayak-video_cover'></div>
+                <img className='mayak-video_cover' src={require("../../pics/cases-pics/mayak-video/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image mayak-video_task-pic'></div>

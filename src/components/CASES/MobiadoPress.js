@@ -24,7 +24,7 @@ function MobiadoPress(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image mobiado-press_cover'></div>
+                    <img className='mobiado-press_cover' src={require("../../pics/cases-pics/mobiado-press/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image mobiado-press_task-pic'></div>
@@ -52,9 +52,8 @@ function MobiadoPress(props) {
                             <div className='case-page_image mobiado-press_solution-pic'></div>
                         </div>
 
-                        <div className='case-page_image mobiado-press_pack'></div>
-
-                        <div className='case-page_image mobiado-press_mockup'></div>
+                        <img className='mobiado-press_pack' src={require("../../pics/cases-pics/mobiado-press/work.png")} alt='Макет' />
+                        <img className='mobiado-press_mockup' src={require("../../pics/cases-pics/mobiado-press/mockup.png")} alt='Мокап' />
 
                     </div>
 

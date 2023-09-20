@@ -4,7 +4,7 @@
 }
 
 .hd_cover {
-    background-image: url(../../pics/cases-pics/hd/cover.png);
+    width: 100%;
 }
 
 .hd_task-pic {
@@ -14,19 +14,13 @@
 }
 
 .hd_pack {
-    min-height: 1526px;
-    margin: 150px 0;
-    background-image: url(../../pics/cases-pics/hd/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .hd_mockup {
     width: 100%;
-    min-height: 1030px;
-    margin: 150px 0 50px 0;
-    background-image: url(../../pics/cases-pics/hd/mockup.png);
+    margin: 100px 0 0 0;
 }
 
 @media screen and (max-width: 1240px) {
@@ -46,10 +40,10 @@
     }
 
     .hd_pack {
-        min-height: 1000px;
+        width: 80%;
     }
 
-    .hd_mockup {
-        min-height: 600px;
+    .hd_title {
+        margin: 0;
     }
 }

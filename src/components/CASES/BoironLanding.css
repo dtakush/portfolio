@@ -1,10 +1,10 @@
 
 .boiron-landing_title {
- margin-top: 50px;
+    margin-top: 50px;
 }
 
 .boiron-landing_cover {
-    background-image: url(../../pics/cases-pics/boiron-landing/cover.png);
+    width: 100%;
 }
 
 .boiron-landing_task-pic {
@@ -15,26 +15,18 @@
 }
 
 .boiron-landing_pack {
-    min-height: 1280px;
-    margin: 150px 0 50px 0;
-    background-image: url(../../pics/cases-pics/boiron-landing/work.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
 .boiron-landing_landing {
     width: 100%;
-    min-height: 1850px;
     margin: 100px 0 0 0;
-    background-image: url(../../pics/cases-pics/boiron-landing/landing.png);
 }
 
 .boiron-landing_mockup {
     width: 100%;
-    min-height: 1093px;
-    margin: 0;
-    background-image: url(../../pics/cases-pics/boiron-landing/mockup.png);
+    margin: 100px 0 0 0;
 }
 
 @media screen and (max-width: 1240px) {
@@ -54,10 +46,7 @@
     }
 
     .boiron-landing_pack {
-        min-height: 850px;
-    }
-
-    .boiron-landing_landing {
-        min-height: 1300px;
+        width: 80%;
+        margin: 100px auto 0;
     }
 }

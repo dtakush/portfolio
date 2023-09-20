@@ -24,7 +24,7 @@ function Desrinit(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image desrinit_cover'></div>
+                <img className='desrinit_cover' src={require("../../pics/cases-pics/desrinit/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image desrinit_task-pic'></div>
@@ -58,9 +58,8 @@ function Desrinit(props) {
                             <div className='case-page_image desrinit_solution-pic'></div>
                         </div>
 
-                        <div className='case-page_image desrinit_image'></div>
-
-                        <div className='case-page_image desrinit_mockup'></div>
+                        <img className='desrinit_pack' src={require("../../pics/cases-pics/desrinit/work.png")} alt='Макет' />
+                        <img className='desrinit_mockup' src={require("../../pics/cases-pics/desrinit/mockup.png")} alt='Мокап' />
 
                     </div>
 

@@ -24,7 +24,7 @@ function MovieVideo(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image movie-video_cover'></div>
+                    <img className='movie-video_cover' src={require("../../pics/cases-pics/movie-video/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image movie-video_task-pic'></div>
@@ -49,9 +49,9 @@ function MovieVideo(props) {
                             <iframe className='movie-video_video' src="https://www.youtube.com/embed/RdBC3kfjvGA?si=cr7q0ITzpxv6lygE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
                         </div>
 
-                        <div className='case-page_image movie-video_mockups movie-video_mockup-1'></div>
-                        <div className='case-page_image movie-video_mockups movie-video_mockup-2'></div>
-                        <div className='case-page_image movie-video_mockups movie-video_mockup-3'></div>
+                        <img className='movie-video_mockup-1' src={require("../../pics/cases-pics/movie-video/photo-1.jpg")} alt='Фото' />
+                        <img className='movie-video_mockup-2' src={require("../../pics/cases-pics/movie-video/photo-2.jpg")} alt='Фото' />
+                        <img className='movie-video_mockup-3' src={require("../../pics/cases-pics/movie-video/photo-3.jpg")} alt='Фото' />
 
                     </div>
 

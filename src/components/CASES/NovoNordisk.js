@@ -24,7 +24,7 @@ function NovoNordisk(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image novo-nordisk_cover'></div>
+                    <img className='novo-nordisk_cover' src={require("../../pics/cases-pics/novo-nordisk/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image novo-nordisk_task-pic'></div>
@@ -54,12 +54,10 @@ function NovoNordisk(props) {
                             </div>
                         </div>
 
-                        
-                        <div className='case-page_image novo-nordisk_pack-1'></div>
-                        <div className='case-page_image novo-nordisk_pack-2'></div>
-                        <div className='case-page_image novo-nordisk_pack-3'></div>
-
-                        <div className='case-page_image novo-nordisk_mockup'></div>
+                        <img className='novo-nordisk_pack-1' src={require("../../pics/cases-pics/novo-nordisk/work.png")} alt='Макет' />
+                        <img className='novo-nordisk_pack-2' src={require("../../pics/cases-pics/novo-nordisk/work-1.png")} alt='Макет' />
+                        <img className='novo-nordisk_pack-3' src={require("../../pics/cases-pics/novo-nordisk/work-2.png")} alt='Макет' />
+                        <img className='novo-nordisk_mockup' src={require("../../pics/cases-pics/novo-nordisk/mockup.png")} alt='Мокап' />
 
                     </div>
 

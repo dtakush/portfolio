@@ -24,7 +24,7 @@ function Svoi(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image svoi_cover'></div>
+                    <img className='svoi_cover' src={require("../../pics/cases-pics/svoi/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image svoi_task-pic'></div>
@@ -55,9 +55,8 @@ function Svoi(props) {
                             <div className='case-page_image svoi_solution-pic'></div>
                         </div>
 
-                        <div className='case-page_image svoi_pack'></div>
-
-                        <div className='case-page_image svoi_mockup'></div>
+                        <img className='svoi_pack' src={require("../../pics/cases-pics/svoi/work.png")} alt='Макет' />
+                        <img className='svoi_mockup' src={require("../../pics/cases-pics/svoi/mockup.png")} alt='Мокап' />
 
                     </div>
 

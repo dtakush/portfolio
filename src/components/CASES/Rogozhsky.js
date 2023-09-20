@@ -24,7 +24,7 @@ function Rogozhsky(props) {
 
 
                 <div className='case-page_section'>
-                        <div className='case-page_image rogozhsky_cover'></div>
+                    <img className='rogozhsky_cover' src={require("../../pics/cases-pics/rogozhsky/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image rogozhsky_task-pic'></div>
@@ -41,9 +41,8 @@ function Rogozhsky(props) {
                             </div>
                         </div>
 
-                        <div className='case-page_image rogozhsky_pack'></div>
-
-                        <div className='case-page_image rogozhsky_mockup'></div>
+                        <img className='rogozhsky_pack' src={require("../../pics/cases-pics/rogozhsky/work.png")} alt='Макет' />
+                        <img className='rogozhsky_mockup' src={require("../../pics/cases-pics/rogozhsky/mockup.png")} alt='Мокап' />
 
                     </div>
 
