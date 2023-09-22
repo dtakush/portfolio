@@ -118,4 +118,16 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
+    .about-work_skills {
+        width: 80%;
+    }
+
+    .about-work_background-top {
+        height: 30px;
+    }
+
+    .about-work_background-down {
+        height: 30px;
+    }
 }

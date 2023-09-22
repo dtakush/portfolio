@@ -10,13 +10,15 @@ function AboutPage(props) {
 
     return (
         <>
-            <Header />
-            <AboutMe />
-            <AboutWork
-            studyCards={props.studyCards}
-            workCards={props.workCards}
-            skillsCards={props.skillsCards} />
-            <Footer />
+            <div className='about-page'>
+                <Header />
+                <AboutMe />
+                <AboutWork
+                studyCards={props.studyCards}
+                workCards={props.workCards}
+                skillsCards={props.skillsCards} />
+                <Footer />
+            </div>
         </>    
     )
 }

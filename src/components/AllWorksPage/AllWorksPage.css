@@ -118,4 +118,13 @@
     .all-work_block {
         width: 100%;
     }
+
+    .all-work_background-top {
+        height: 30px;
+        margin-top: 120px;
+    }
+
+    .all-work_background-bottom {
+        height: 30px;
+    }
 }

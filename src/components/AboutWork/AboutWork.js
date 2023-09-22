@@ -11,6 +11,7 @@ function AboutWork(props) {
             <div className='about-work'>
                 <div className='about-work_background-top'></div>
                 <div className='about-work_background'>
+                    
                     <div className='about-work_tables'>
 
                         <div className='about-work_experience'>

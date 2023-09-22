@@ -83,3 +83,20 @@
         margin: 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .contact-block {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .contact-block_header {
+        font-size: 1.2rem;
+        line-height: 4rem;
+    }
+
+    .contact-block_text {
+        font-size: 1.2rem;
+        line-height: 4rem;
+    }
+}

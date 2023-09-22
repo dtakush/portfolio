@@ -7,9 +7,7 @@ import { NavLink } from 'react-router-dom';
 function ClientsList({onEmptyClientClick}) {
 
     return (
-        <>
-            <div className='clients-list_gradient'></div>
-            
+        <>  
             <div className='clients-list'>
                 <NavLink to='/work/boiron-landing' className='clients-list_text'>Boiron</NavLink>
                 <NavLink to='#' className='clients-list_text' onClick={onEmptyClientClick}>Роснефть</NavLink>
