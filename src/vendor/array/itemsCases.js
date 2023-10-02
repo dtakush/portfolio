@@ -1,5 +1,12 @@
 const itemsCases = [
     {
+      key: "57",
+      title: 'Слобода',
+      subtitle: 'Анимация',
+      picUrl: 'https://i.imgur.com/GJSD68j.png',
+      picLink: '/work/sloboda',
+    },
+    {
       key: "26",
       title: 'Чай "Пауза"',
       subtitle: 'Иллюстрация',
@@ -26,6 +33,13 @@ const itemsCases = [
       subtitle: 'Брендинг',
       picUrl: 'https://i.imgur.com/XZTAAi0.png',
       picLink: '/work/svoi',
+    },
+    {
+      key: "55",
+      title: 'Баннеры Miele',
+      subtitle: 'Digital',
+      picUrl: 'https://i.imgur.com/nSBYJjO.png',
+      picLink: '/work/miele',
     },
     {
       key: "30",
@@ -82,6 +96,13 @@ const itemsCases = [
       subtitle: 'Пресса',
       picUrl: 'https://i.imgur.com/gLlSbGt.png',
       picLink: '/work/boehringer-ingelheim',
+    },
+    {
+      key: "56",
+      title: 'Баненры Amigo',
+      subtitle: 'Digital',
+      picUrl: 'https://i.imgur.com/SXtx08p.png',
+      picLink: '/work/amigo',
     },
     {
       key: "38",
@@ -191,8 +212,8 @@ const itemsCases = [
     },
     {
       key: "54",
-      title: 'Ремит',
-      subtitle: 'Анимация',
+      title: 'Баннеры Ремит',
+      subtitle: 'Digital',
       picUrl: 'https://i.imgur.com/sBMRQ0p.png',
       picLink: '/work/remit-video',
     },

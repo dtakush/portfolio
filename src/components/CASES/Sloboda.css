@@ -1,0 +1,41 @@
+
+.sloboda_title {
+    margin-top: 50px;
+}
+
+.sloboda_cover {
+    width: 100%;
+}
+
+.sloboda_task-pic {
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/sloboda/task.png);
+}
+
+.sloboda_video {
+    margin: 150px 0;
+    min-width: 100%;
+    min-height: 500px;
+}
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .sloboda_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .sloboda_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .sloboda_title {
+        margin-top: 100px;
+    }
+}

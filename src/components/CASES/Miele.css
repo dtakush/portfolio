@@ -1,0 +1,53 @@
+
+.miele_title {
+    margin-top: 50px;
+}
+
+.miele_cover {
+    width: 100%;
+}
+
+.miele_task-pic {
+    background-position: top;
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/miele/solution.png);
+    background-position: center;
+}
+
+.miele_pack {
+    width: 100%;
+    margin: 100px 0 0 0;
+}
+
+.miele_landing {
+    width: 100%;
+    margin: 100px 0 0 0;
+}
+
+.miele_mockup {
+    width: 100%;
+    margin: 100px 0 0 0;
+}
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .miele_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .miele_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .miele_pack {
+        width: 80%;
+        margin: 100px auto 0;
+    }
+}

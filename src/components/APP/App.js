@@ -50,8 +50,11 @@ import MovieVideo from '../CASES/MovieVideo';
 import MedinformVideo from '../CASES/MedinformVideo';
 import MayakVideo from '../CASES/MayakVideo';
 import RemitVideo from '../CASES/RemitVideo';
+import Sloboda from '../CASES/Sloboda';
 //Digital
 import BoironLanding from '../CASES/BoironLanding';
+import Miele from '../CASES/Miele';
+import Amigo from '../CASES/Amigo';
 
 
 
@@ -450,6 +453,24 @@ function App() {
         <Route
           exact path="/work/boiron-landing"
           element={<BoironLanding
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/miele"
+          element={<Miele
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/amigo"
+          element={<Amigo
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/sloboda"
+          element={<Sloboda
             scrollTop={scrollTop} />}
         />
 

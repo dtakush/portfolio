@@ -11,6 +11,7 @@ function ClientsList({onEmptyClientClick}) {
             <div className='clients-list'>
                 <NavLink to='/work/boiron-landing' className='clients-list_text'>Boiron</NavLink>
                 <NavLink to='#' className='clients-list_text' onClick={onEmptyClientClick}>Роснефть</NavLink>
+                <NavLink to='/work/miele' className='clients-list_text'>Miele</NavLink>
                 <NavLink to='/work/remit-video' className='clients-list_text'>Ремит</NavLink>
                 <NavLink to='/work/dom-22' className='clients-list_text'>Донстрой</NavLink>
                 <NavLink to='/work/dolfin' className='clients-list_text'>Alvogen</NavLink>
