@@ -14,6 +14,13 @@ const itemsCases = [
       picLink: '/work/pause-tea-pack',
     },
     {
+      key: "58",
+      title: 'Brand Ice',
+      subtitle: 'Digital',
+      picUrl: 'https://i.imgur.com/QbSKhcx.png',
+      picLink: '/work/brand-ice',
+    },
+    {
       key: "27",
       title: 'Дом XXII',
       subtitle: 'Outdoor',

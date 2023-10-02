@@ -49,12 +49,13 @@ import FamiliaVideo from '../CASES/FamiliaVideo';
 import MovieVideo from '../CASES/MovieVideo';
 import MedinformVideo from '../CASES/MedinformVideo';
 import MayakVideo from '../CASES/MayakVideo';
-import RemitVideo from '../CASES/RemitVideo';
 import Sloboda from '../CASES/Sloboda';
 //Digital
 import BoironLanding from '../CASES/BoironLanding';
 import Miele from '../CASES/Miele';
 import Amigo from '../CASES/Amigo';
+import RemitVideo from '../CASES/RemitVideo';
+import BrandIce from '../CASES/BrandIce';
 
 
 
@@ -471,6 +472,12 @@ function App() {
         <Route
           exact path="/work/sloboda"
           element={<Sloboda
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/brand-ice"
+          element={<BrandIce
             scrollTop={scrollTop} />}
         />
 

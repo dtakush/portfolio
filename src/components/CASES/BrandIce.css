@@ -1,0 +1,53 @@
+
+.brand-ice_title {
+    margin-top: 50px;
+}
+
+.brand-ice_cover {
+    width: 100%;
+}
+
+.brand-ice_task-pic {
+    background-position: top;
+    width: 50%;
+    min-height: 145px;
+    background-image: url(../../pics/cases-pics/brand-ice/solution.png);
+    background-position: center;
+}
+
+.brand-ice_pack {
+    width: 100%;
+    margin: 100px 0 0 0;
+}
+
+.brand-ice_landing {
+    width: 100%;
+    margin: 100px 0 0 0;
+}
+
+.brand-ice_mockup {
+    width: 100%;
+    margin: 100px 0 0 0;
+}
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .brand-ice_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .brand-ice_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .brand-ice_pack {
+        width: 80%;
+        margin: 100px auto 0;
+    }
+}

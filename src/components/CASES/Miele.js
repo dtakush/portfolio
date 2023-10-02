@@ -24,7 +24,7 @@ function Miele(props) {
 
 
                 <div className='case-page_section'>
-                    <img className='boiron-landing_cover' src={require("../../pics/cases-pics/miele/cover.png")} alt='Обложка' />
+                    <img className='miele_cover' src={require("../../pics/cases-pics/miele/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
                             <div className='case-page_image miele_task-pic'></div>
