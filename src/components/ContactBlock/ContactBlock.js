@@ -36,6 +36,18 @@ function ContactBlock() {
                     <div className='contact-block_line' style={{width: 65}}></div>
                     <a  className='contact-block_text' href="mailto:dashatakush@yandex.ru?subject=Письмо с сайта" target='_blanc'>dashatakush@yandex.ru</a>
                 </div>
+
+                <div className='contact-block_table'>
+                    <h3 className='contact-block_header'>Behance</h3>
+                    <div className='contact-block_line' style={{width: 155}}></div>
+                    <a  className='contact-block_text' href="https://www.behance.net/dariatakush" target='_blanc'>/dariatakush</a>
+                </div>
+
+                <div className='contact-block_table'>
+                    <h3 className='contact-block_header'>Dribble</h3>
+                    <div className='contact-block_line' style={{width: 164}}></div>
+                    <a  className='contact-block_text' href="https://dribbble.com/DariaTakush" target='_blanc'>/DariaTakush</a>
+                </div>
             </div>
             
         </>    
