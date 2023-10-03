@@ -21,6 +21,7 @@ import Error from '../Error/Error';
 import PauseTeaPackCasePage from '../CASES/PauseTeaPackCasePage';
 import StPetOutdoor from '../CASES/StPetOutdoor';
 import StikersVolost from '../CASES/StikersVolost';
+import VorohDel from '../CASES/VorohDel';
 //Outdoor
 import SerdceStolitsy from '../CASES/SerdceStolitsy';
 import DomXXII from '../CASES/DomXXII';
@@ -478,6 +479,12 @@ function App() {
         <Route
           exact path="/work/brand-ice"
           element={<BrandIce
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/voroh-del"
+          element={<VorohDel
             scrollTop={scrollTop} />}
         />
 

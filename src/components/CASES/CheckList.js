@@ -24,7 +24,7 @@ function CheckList(props) {
 
 
                 <div className='case-page_section'>
-                <img className='aist-residence_cover' src={require("../../pics/cases-pics/check-list/cover.png")} alt='Обложка' />
+                <img className='check-list_cover' src={require("../../pics/cases-pics/check-list/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
                             <div className='case-page_image check-list_task-pic'></div>

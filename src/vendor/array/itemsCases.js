@@ -35,6 +35,13 @@ const itemsCases = [
       picLink: '/work/mobiado-iphone',
     },
     {
+      key: "59",
+      title: 'Ворох дел',
+      subtitle: 'Иллюстрация',
+      picUrl: 'https://i.imgur.com/6B6QffF.png',
+      picLink: '/work/voroh-del',
+    },
+    {
       key: "29",
       title: 'Свои',
       subtitle: 'Брендинг',
