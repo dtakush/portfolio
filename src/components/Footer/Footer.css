@@ -39,7 +39,7 @@
 }
 
 .footer__line_main {
-    width: 1000px;
+    width: 85%;
     min-height: 128px;
     background-image: url(../../pics/dog_line.png);
     background-position: left;
@@ -49,7 +49,7 @@
 }
 
 .footer__line_small {
-    width: 820px;
+    width: 70%;
     height: 1px;
     background-color: #fff;
     margin: auto 0 27px;
