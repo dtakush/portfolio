@@ -29,7 +29,7 @@
 
 .contact-block_line {
     margin: 10px 5px;
-    height: 1px;
+    height: 0;
     background-color: #fff;
 }
 

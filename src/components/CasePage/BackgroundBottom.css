@@ -8,3 +8,9 @@
     overflow: hidden;
     margin: 0;
 }
+
+@media screen and (max-width: 800px) {
+    .case-page_background-bottom {
+        background-size: 300%;
+    }
+}

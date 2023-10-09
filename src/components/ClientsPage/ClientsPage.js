@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import ClientsList from '../ClientsList/ClientsList';
 import ClientPopup from '../ClientPopup/ClientPopup';
+import ClientsLogos from '../ClientsLogos/ClientsLogos';
 
 
 function ClientsPage(props) {
@@ -15,11 +16,15 @@ function ClientsPage(props) {
             <ClientPopup
             isOpen={props.isOpen}
             onClose={props.onClose} />
-            <ClientsList
-            onEmptyClientClick={props.onEmptyClientClick} />
+            <ClientsLogos />
             <Footer />
         </>    
     )
 }
 
 export default ClientsPage;
+
+/*
+            <ClientsList
+            onEmptyClientClick={props.onEmptyClientClick} />
+            */

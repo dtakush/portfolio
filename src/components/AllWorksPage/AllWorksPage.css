@@ -126,6 +126,6 @@
     }
 
     .all-work_background-bottom {
-        height: 30px;
+        background-size: 300%;
     }
 }
