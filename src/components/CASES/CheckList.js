@@ -27,14 +27,15 @@ function CheckList(props) {
                 <img className='check-list_cover' src={require("../../pics/cases-pics/check-list/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
-                            <div className='case-page_image check-list_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать иллюстрации и сверстать чек-лист по ведению социальной сети. Стилистика: корпоративный стиль MOVIE. Колористическое решение:  маджента, оранжевый, фиолетовый и бирюзовый – фирменный стиль компании.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title check-list_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Иллюстрации в стиле наив с использованием всех ярких фирменных цветов компании поддержат веселый и забавный тон текста.
                                 </p>

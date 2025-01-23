@@ -27,21 +27,22 @@ function FamiliaVideo(props) {
                 <img className='familia-video_cover' src={require("../../pics/cases-pics/familia-video/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image familia-video_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать анимацию для летних и зимних макетов Familia из серии “Шопомонстры”. Необходимо привлечь внимание к скидкам.
-                                </p>
+                                </p> 
+                            </div>
 
-                                <h3 className='case-page__title familia-video_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Яркое появление ценников привлекает внимание к скидкам.  Изменение масштаба строчек слогана также обращает внимание на себя.
                                 </p> 
                             </div>
                         </div>
-                        <iframe className='familia-video_video' src="https://www.youtube.com/embed/5ZVT_c1_U_0?si=WnuNiI2OlGZ7pKKr" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-
+                        <iframe className='familia-video_video' width="900" height="506" src="https://rutube.ru/play/embed/43832220dcb7e03b0378ae41cb5ca457" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                        <iframe className='familia-video_video' width="900" height="506" src="https://rutube.ru/play/embed/c02d72e9a11b6ca8862e45382576ad50" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
 
 

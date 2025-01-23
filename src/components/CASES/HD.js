@@ -27,14 +27,15 @@ function HD(props) {
                     <img className='hd_cover' src={require("../../pics/cases-pics/hd/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
-                            <div className='case-page_image hd_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать логотип для консалтинговой компании HD Consulting. Пожелание клиента – минималистично, строго.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title hd_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Логотип должен говорить о стабильности и стойкости. Основной синий цвет поддерживает эту тему.
                                 </p> 

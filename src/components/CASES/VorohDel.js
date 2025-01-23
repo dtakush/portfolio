@@ -27,8 +27,8 @@ function VorohDel(props) {
                 <img className='voroh-del_cover' src={require("../../pics/cases-pics/voroh-del/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
-                            <div className='case-page_image voroh-del_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <img className='voroh-del_task-pic' src={require("../../pics/cases-pics/voroh-del/task.png")} alt='Макет' />
+                            <div className='case-page__text voroh-del__task'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать обложку для подкаста “Ворох дел”. Он состоит из советов молодым людям от 15 до 25 лет. В каждом выпуске психолог Анна Бараева и основательница фонда адаптации сирот Марина Степанова разбирают одну историю, с которой может столкнуться человек в начале самостоятельной жизни. Например: Что делать, если прорвало трубу Куда обращаться, чтобы получить налоговый вычет? Как проверить задолженность по коммунальным платежам?
@@ -38,7 +38,7 @@ function VorohDel(props) {
 
                         <div className='case-page__block'>
                             <img className='voroh-del_solution-pic' src={require("../../pics/cases-pics/voroh-del/solution.png")} alt='Макет' />
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text voroh-del__task'>
                                 <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Сейчас актуальна и популярна графика в ретро-стиле, она поможет связать тему молодых людей, которые выходят в мир, и опыта, который им стремятся передать. Иллюстрации должны быть не слишком детальными, так как финально в приложениях будут разные размеры обложки: от очень маленькой, до большой на десктопе.

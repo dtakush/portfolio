@@ -27,14 +27,15 @@ function CleanLine(props) {
                 <img className='clean-line_cover' src={require("../../pics/cases-pics/clean-line/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
-                            <div className='case-page_image clean-line_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать рекламный модуль бренда Чистая линия. Продукт - гель для душа с ирисом и эфирными маслами. Атмосфера должна быть легкой, ненавязчивой, цветущей.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title clean-line_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Макет должен быть ярким и запоминающимся, а также передавать настроение.
                                 </p>

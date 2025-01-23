@@ -27,14 +27,15 @@ function Horoshovsky(props) {
                     <img className='horoshovsky_cover' src={require("../../pics/cases-pics/horoshovsky/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image horoshovsky_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать макет для наружной рекламы Жилого Комплекса семейного класса Хорошевский. Нужно сделать акцент на больших кухнях в квартирах и теплых семейных отношениях, используя логотип, цвета и фирменный стиль из брендбука.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title horoshovsky_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Мы использовали фирменный полигональный фон жилого комплекса и яркие плашки, чтобы выделить биллборд на фоне хмурого зимнего неба.
                                 </p> 

@@ -27,8 +27,7 @@ function MedinformVideo(props) {
                     <img className='hills-all-legs_cover' src={require("../../pics/cases-pics/hills-all-legs/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image hills-all-legs_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать анимационную открытку для клиентов, поздравление с Новым годом 2015.
@@ -36,16 +35,20 @@ function MedinformVideo(props) {
                                 <p className='case-page__subtitle'>
                                 Необходимо использовать логотип и фирменные цвета компании. Каждый из пяти фирменных цветов MedInform символизирует одно из подразделений коммуникационной группы.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title hills-all-legs_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Так как 2015 – год Овцы, мы решили использовать этот образ в шутливой манере. Овца катится с горки среди флажков фирменных цветов MedInform как образ того, что клиенты проходят 2014 год вместе с командой агентства. В итоге появляется на финише, где она выпивает шампанского и танцует вместе с подарками, которые оживают и начинают танцевать и прыгать. Это олицетворяет то, что в новом году агентство также будет вместе с клиентами работать над проектами вместе.
                                 </p>
                                 <p className='case-page__subtitle'>
-                                В качестве фоновой музыки использован ритмичный трек Lady Gaga “Christmas Tree”.                                </p>
+                                В качестве фоновой музыки использован ритмичный трек Lady Gaga “Christmas Tree”.
+                                </p>
                             </div>
                         </div>
-                        <iframe className='hills-all-legs_video' src="https://www.youtube.com/embed/y-s5D2d_w_Q?si=piiJ9j8iF9zk8YXd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+
+                        <iframe className='hills-all-legs_video' width="900" height="506" src="https://rutube.ru/play/embed/291ef6c7b542315a766353e48d65337f" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
                     </div>
 

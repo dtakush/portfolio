@@ -27,8 +27,7 @@ function Desrinit(props) {
                 <img className='desrinit_cover' src={require("../../pics/cases-pics/desrinit/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
-                            <div className='case-page_image desrinit_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать два рекламных модуля в медицинскую прессу для препарата Дезринит компании Teva. Один из макетов направлен на педиаторов, а второй на специалистов для взрослых.
@@ -40,11 +39,9 @@ function Desrinit(props) {
                                 После создания макета, компания изменила дизайн упаковки.
                                 </p>
                             </div>
-                        </div>
 
-                        <div className='case-page__block'>
-                           <div className='case-page__text case-page__solution'>
-                                <h3 className='case-page__title desrinit_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Рецептурный препарат снимает заложенность носа у взрослых и детей при аллергиях, оказывает противовоспалительное и противоаллергическое действие.
                                 </p> 
@@ -55,9 +52,7 @@ function Desrinit(props) {
                                 Макет для взрослых напротив показывает нос, который прорвался сквозь неприятные ощущения в пазухах.
                                 </p> 
                             </div>
-                            <div className='case-page_image desrinit_solution-pic'></div>
                         </div>
-
                         <img className='desrinit_pack' src={require("../../pics/cases-pics/desrinit/work.png")} alt='Макет' />
                         <img className='desrinit_mockup' src={require("../../pics/cases-pics/desrinit/mockup.png")} alt='Мокап' />
 

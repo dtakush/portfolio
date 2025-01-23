@@ -27,14 +27,15 @@ function SberStrah(props) {
                     <img className='sber-strahovaniye_cover' src={require("../../pics/cases-pics/sber-strahovaniye/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image sber-strahovaniye_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать мастер-баннер для функции написания песен в GigaChat. Подготовить ресайзы по ТТ площадок.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title sber-strahovaniye_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Используя брендбук компании, была выбрана стилистика изображений для баннеров. После этого были сгенерированы и обработаны подходящие иллюстрации в стиле анимационных мультфильмов.
                                 </p>

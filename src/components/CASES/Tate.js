@@ -27,14 +27,15 @@ function Tate(props) {
                     <img className='tate_cover' src={require("../../pics/cases-pics/tate/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image tate_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать мастер-баннеры для продвижения старта продаж нового ЖК TATE.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title tate_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Используя фотосессии и рендеры клиента была разработана серия мастер-макетов в статике и gif-анимации. Из них были сделаны ресайзы для различных площадок.
                                 </p>

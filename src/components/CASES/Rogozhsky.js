@@ -27,14 +27,15 @@ function Rogozhsky(props) {
                     <img className='rogozhsky_cover' src={require("../../pics/cases-pics/rogozhsky/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image rogozhsky_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать макет для наружной рекламы для Клубного Дома на Рогожском. Нужно подчеркнуть премиальность дома. Необходимо использовать логотип, цвета и фирменный стиль из брендбука.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title rogozhsky_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Мы показали рендер самого дома на благородном синем цвете. Золотой цвет текста и логотипа подчеркивает элитарность.
                                 </p> 

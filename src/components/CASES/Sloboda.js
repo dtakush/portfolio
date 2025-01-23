@@ -27,8 +27,7 @@ function Sloboda(props) {
                 <img className='sloboda_cover' src={require("../../pics/cases-pics/sloboda/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image sloboda_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Акция проводилась во время пандемии 2020 года, когда во городах России ввели режим самоизоляции. Это был сложный период и таким образом бренд поддерживал людей. Были сняты рекламные ролики, наружная реклама, реклама в соцсетях.
@@ -36,14 +35,17 @@ function Sloboda(props) {
                                 <p className='case-page__subtitle'>
                                 После завершения необходимо было смонтировать кейс для размещения на <a href="https://www.sostav.ru/publication/dukhopodemnyj-kejs-movie-i-sloboda-kak-jogurt-pomozhet-perezhit-samoizolyatsiyu-43783.html">Sostav</a>.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title sloboda_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Во время создания ролика люди все еще были на самоизоляции, было принято решения снимать из дома, а потом уже монтировать под видео-конференцию. Я занималась созданием дизайна, монтажом и анимацией ролика.
                                 </p>
                             </div>
                         </div>
-                        <iframe className='sloboda_video' src="https://www.youtube.com/embed/abbGbutqjwk?si=Z028f9xp7um0cqRq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+
+                        <iframe className='sloboda_video' width="900" height="506" src="https://rutube.ru/play/embed/fa83676f1d9780fdefa7d84afad57531" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
                     </div>
 

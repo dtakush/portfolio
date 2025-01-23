@@ -71,7 +71,7 @@ const itemsCases = [
     },
     {
       key: "55",
-      title: 'Баннеры Miele',
+      title: 'Miele',
       subtitle: 'Digital',
       picUrl: 'https://i.imgur.com/nSBYJjO.png',
       picLink: '/work/miele',
@@ -134,8 +134,8 @@ const itemsCases = [
     },
     {
       key: "56",
-      title: 'Баненры Amigo',
-      subtitle: 'Digital',
+      title: 'Amigo',
+      subtitle: 'Анимация',
       picUrl: 'https://i.imgur.com/SXtx08p.png',
       picLink: '/work/amigo',
     },
@@ -160,13 +160,13 @@ const itemsCases = [
       picUrl: 'https://i.imgur.com/hqCVjLH.png',
       picLink: '/work/novo-nordisk',
     },
-    {
+    /*{
       key: "40",
       title: 'Чистая линия',
       subtitle: 'Пресса',
       picUrl: 'https://i.imgur.com/taNtkNU.png',
       picLink: '/work/clean-line',
-    },
+    },*/
     {
       key: "41",
       title: 'Mobiado',

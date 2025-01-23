@@ -27,8 +27,7 @@ function Fungoterbin(props) {
                     <img className='fungoterbin_cover' src={require("../../pics/cases-pics/fungoterbin/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
-                            <div className='case-page_image fungoterbin_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать рекламный модуль в прессу препарата Фунготербин Нео компании Stada. Препарат комплексно ухаживает и защищает стопы.
@@ -36,8 +35,10 @@ function Fungoterbin(props) {
                                 <p className='case-page__subtitle'>
                                 Необходимо привлечь внимание к препарату и выделить его среди конкурентов. Фирменного стиля нет.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title fungoterbin_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Создать типографический макет, визуально разделенный на две части – до применения препарата и после. Соответственно, до применения - кожа стоп зудела и огрубела, а после – Фунготербин смягчил кожу и помог победить грибок. Стилистически макет показывает меловую доску и надписи на ней, это создает дополнительный эффект неприятных прикосновений. В подвале же уже более точно описывается действие препарата.
                                 </p>

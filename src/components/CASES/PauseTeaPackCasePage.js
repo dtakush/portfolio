@@ -27,18 +27,15 @@ function PauseTeaPackCasePage(props) {
                     <img className='tea-pack-pause_cover' src={require("../../pics/cases-pics/tea-pack-pause/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image tea-pack-pause_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать иллюстрацию для упаковки чая “Пауза”. ЦА – молодые, современные люди, которые ведут активный образ жизни, интересуются актуальными новостями мира, много работают. Для них ценно вечернее время после работы, когда можно расслабиться и выдохнуть.
                                 </p>
                             </div>
-                        </div>
 
-                        <div className='case-page__block'>
                             <div className='case-page__text case-page__solution'>
-                                <h3 className='case-page__title case-page__title__solution'>Решение</h3>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Травы, содержащиеся в чае прорастают среди силуэта большого города, они ставят на паузу все заботы и печали. Сразу понятно, что это чай для вечернего времени наедине с собой или книгой.
                                 </p>
@@ -48,11 +45,9 @@ function PauseTeaPackCasePage(props) {
                                 <p className='case-page__subtitle'>
                                 Графика простая, добавление растушевки спреем создает небольшие градиенты, чтобы смягчить переходы и линии.
                                 </p>
-                                
                             </div>
-                            <div className='case-page_image tea-pack-pause_solution-pic'></div>
                         </div>
-
+                        
                         <img className='tea-pack-pause_pack' src={require("../../pics/cases-pics/tea-pack-pause/work.png")} alt='Макет' />
                         <img className='tea-pack-pause_mockup' src={require("../../pics/cases-pics/tea-pack-pause/mockup.png")} alt='Мокап' />
 

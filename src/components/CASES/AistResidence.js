@@ -27,14 +27,15 @@ function AistResidence(props) {
                         
 
                          <div className='case-page__block'>
-                            <div className='case-page_image aist-residence_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать макет для наружной рекламы аппарт-комплекса Aist Residence. Элитный строящийся жилой комплекс на тот момент имел только рендеры. Необходимо использовать фирменные цвета и стилистику из брендбука.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title aist-residence_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Яркий рендер ЖК привлекает внимание, а песочный и темно-коричневый цвета поддерживают общую стилистику бренда. Силуэт логотипа на заднем плане собирает композицию в единую систему.
                                 </p> 

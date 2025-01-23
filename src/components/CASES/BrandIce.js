@@ -27,14 +27,15 @@ function BrandIce(props) {
                     <img className='brand-ice_cover' src={require("../../pics/cases-pics/brand-ice/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image brand-ice_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать дизайн ТВ-баннеров, которые будут показываться пользователю во время просмотра фильмов. В левом углу в режиме “картинка в картинке” будет продолжать идти фильм.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title brand-ice_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                     Показать ключевые атрибуты разных фильмов и сериалов в формате мороженного. Используя платформу MidJourney удалось получить прекрасные образы для макетов, но они все же требовали доработки.
                                 </p>

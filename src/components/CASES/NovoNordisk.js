@@ -27,8 +27,7 @@ function NovoNordisk(props) {
                     <img className='novo-nordisk_cover' src={require("../../pics/cases-pics/novo-nordisk/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image novo-nordisk_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать серию макетов о борьбе с лишним весом с Надеждой Ангарской.
@@ -39,8 +38,10 @@ function NovoNordisk(props) {
                                 <p className='case-page__subtitle'>
                                 Цель макета – привлечь людей на сайт ЛишнийВесНет.рф, чтобы пройти скрининг и узнать что именно мешает похудеть.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title novo-nordisk_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Фирменный синий цвет фона контрастирует с образами Надежды Ангарской, что выделяет ее.
                                 </p>

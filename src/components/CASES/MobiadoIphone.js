@@ -27,7 +27,6 @@ function MobiadoIphone(props) {
                     <img className='mobiado-iphone_cover' src={require("../../pics/cases-pics/mobiado-iphone/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
-                            <div className='case-page_image mobiado-iphone_task-pic'></div>
                             <div className='case-page__text case-page__task'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
@@ -37,11 +36,9 @@ function MobiadoIphone(props) {
                                 Основная задача – создать серию дизайнов задней панели iPhone в стиле художников.
                                 </p>
                             </div>
-                        </div>
 
-                        <div className='case-page__block'>
-                           <div className='case-page__text case-page__solution'>
-                                <h3 className='case-page__title mobiado-iphone_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Использовать картины художников напрямую затратно, поэтому было решено взять стилистику картин разных художников разных времен и создать паттерны на их основе, передающие энергетику.
                                 </p> 
@@ -49,7 +46,6 @@ function MobiadoIphone(props) {
                                 Выбор пал на известнейших творцов – Василий Кандинский, Мауриц Корнелиус Эшер и Энди Уорхол. Каждый из них создал свой собственный уникальный стиль работ – значит он будет узнаваем.
                                 </p>
                             </div>
-                            <div className='case-page_image mobiado-iphone_solution-pic'></div>
                         </div>
 
                         <img className='mobiado-iphone_pack' src={require("../../pics/cases-pics/mobiado-iphone/work.png")} alt='Макет' />

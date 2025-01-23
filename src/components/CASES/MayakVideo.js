@@ -27,14 +27,15 @@ function MayakVideo(props) {
                 <img className='mayak-video_cover' src={require("../../pics/cases-pics/mayak-video/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image mayak-video_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                         <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать OLV ролик для ЖК “Маяк”. Необходимо использовать видео, снятое на квадрокоптер, KV и фирменный стиль клиента.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title mayak-video_title'>Решение</h3>
+                            <div className='case-page__text case-page__task'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 OLV ролики часто проматывают, поэтому необходимо сразу показать логотип.
                                 </p>
@@ -43,8 +44,7 @@ function MayakVideo(props) {
                                 </p>
                             </div>
                         </div>
-                        <iframe className='mayak-video_video' src="https://www.youtube.com/embed/eHtVS0QVVig?si=W-2zUFzK6mZh-Kmy" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-
+                        <iframe className='mayak-video_video' width="900" height="506" src="https://rutube.ru/play/embed/9edfc9d50f7f0abeaabdbbea6644e4a3" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
 
 

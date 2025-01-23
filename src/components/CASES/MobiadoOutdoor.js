@@ -27,14 +27,15 @@ function MobiadoOutdoor(props) {
                     <img className='mobiado-outdoor_cover' src={require("../../pics/cases-pics/mobiado-outdoor/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image mobiado-outdoor_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать макет для лайтбокса для ТЦ Времена Года. Необходимо показать эксклюзивность и элитарность марки Mobiado и указать, что этот магазин есть в торговом центре.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title mobiado-outdoor_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                               <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Показать самые интересные моделей телефонов, сделанные из золота и украшенные гравировкой ручной работы. Телефон занимает центральное место в композиции, привлекая к себе внимание. Глубокий черный фон подчеркивает и выделяет модель.
                                 </p>

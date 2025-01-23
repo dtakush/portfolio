@@ -27,8 +27,7 @@ function DolinaSetun(props) {
                 <img className='dolina-setun_cover' src={require("../../pics/cases-pics/dolina-setun/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image dolina-setun_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать два макета для наружной рекламы для ЖК Долина Сетунь. Нужно отразить элитность жилого комплекса и то, что продающиеся квартиры – это пентхаусы. Также необходимо намекнуть на специальные цены к Новому Году.
@@ -37,20 +36,16 @@ function DolinaSetun(props) {
                                 Необходимо использовать фотографии ЖК и логотип.
                                 </p>
                             </div>
-                        </div>
 
-                        <div className='case-page__block'>
                             <div className='case-page__text case-page__solution'>
-                                <h3 className='case-page__title'>Решение</h3>
+                            <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Было решено сделать два макета: ночной и дневной. Образ ЖК уже достаточно узнаваем, поэтому можно использовать фото только одной башни. Облака и луна вокруг башни гипертрофированно показывают как высоки небоскребы.
                                 </p>
                                 <p className='case-page__subtitle'>
                                 Золотые оттенки шрифта на ночном макете подчеркивают элитность и премиальность ЖК.
                                 </p>
-                                
                             </div>
-                            <div className='case-page_image dolina-setun_solution-pic'></div>
                         </div>
 
                         <img className='dolina-setun_pack' src={require("../../pics/cases-pics/dolina-setun/work.png")} alt='Макет' />

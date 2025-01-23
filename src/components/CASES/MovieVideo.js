@@ -27,26 +27,27 @@ function MovieVideo(props) {
                     <img className='movie-video_cover' src={require("../../pics/cases-pics/movie-video/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image movie-video_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Создать анимационные фоновые заставки для мероприятия, приуроченного к 25-летию MOVIE и обновлению фирменного стиля. Заставки должны быть забавными и яркими.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title movie-video_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Забавные ситуации, которые происходят с основными фирменными иллюстративными персонажами в небольших анимированных перебивках.
                                 </p> 
                             </div>
                         </div>
                         <div className='movie-video_video-block'>
-                            <iframe className='movie-video_video' src="https://www.youtube.com/embed/m5K9mQy3j5c?si=sEvIb1M8ocn1C2Ns" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
-                            <iframe className='movie-video_video' src="https://www.youtube.com/embed/N-05XQGhdI4?si=4j6V4CwTweqYXEbT" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
-                            <iframe className='movie-video_video' src="https://www.youtube.com/embed/RHaOrZlVB0g?si=KJF_rgRuqm98TXtW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
-                            <iframe className='movie-video_video' src="https://www.youtube.com/embed/THgTZHgLEsY?si=RjGBulPJDOrMeubt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
-                            <iframe className='movie-video_video' src="https://www.youtube.com/embed/GqljHj7Ltyw?si=fzb7glOSAXEGvPVK" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
-                            <iframe className='movie-video_video' src="https://www.youtube.com/embed/RdBC3kfjvGA?si=cr7q0ITzpxv6lygE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
+                            <iframe className='movie-video_video' width="400" height="225" src="https://rutube.ru/play/embed/2d57339867ebc3b036c09e63de656dde" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                            <iframe className='movie-video_video' width="400" height="225" src="https://rutube.ru/play/embed/6975819c4237c348555b4e21d6388ffb" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>                        
+                            <iframe className='movie-video_video' width="400" height="225" src="https://rutube.ru/play/embed/59b77811efc25ada66d628c75805aa80" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                            <iframe className='movie-video_video' width="400" height="225" src="https://rutube.ru/play/embed/b96f0adf5c90a975363cb6fdf51f6e24" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                            <iframe className='movie-video_video' width="400" height="225" src="https://rutube.ru/play/embed/358c7e6797282649bada96f47eeb08a1" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                            <iframe className='movie-video_video' width="400" height="225" src="https://rutube.ru/play/embed/b6178b3ca5f404e06a12c00684716f58" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                         </div>
 
                         <img className='movie-video_mockup-1' src={require("../../pics/cases-pics/movie-video/photo-1.jpg")} alt='Фото' />

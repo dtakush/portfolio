@@ -27,14 +27,15 @@ function Miele(props) {
                     <img className='miele_cover' src={require("../../pics/cases-pics/miele/cover.png")} alt='Обложка' />
 
                          <div className='case-page__block'>
-                            <div className='case-page_image miele_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать дизайн для  рекламных баннеров винных шкафов Miele. Подготовить ресайзы по ТТ площадок.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title miele_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Используя брендбук компании была создана централизованная композиция, поддерживаемая расположением логотипа. Также была добавлена кнопка “Узнать больше” в стилистике Miele, которая является call-to-action в баннерах РСЯ и GDN.
                                 </p>

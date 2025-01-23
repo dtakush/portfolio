@@ -27,14 +27,15 @@ function Dolfin(props) {
                 <img className='dolfin_cover' src={require("../../pics/cases-pics/dolfin/cover.png")} alt='Обложка' />
 
                         <div className='case-page__block'>
-                            <div className='case-page_image dolfin_task-pic'></div>
-                            <div className='case-page__text case-page__task'>
+                            <div className='case-page__text'>
                                 <h3 className='case-page__title'>Задача</h3>
                                 <p className='case-page__subtitle'>
                                 Разработать новый дизайн упаковки средства для промывания носа “Долфин”. Дизайн должен основываться на новом KV и максимально отражать водную тему.
                                 </p>
+                            </div>
 
-                                <h3 className='case-page__title dolfin_title'>Решение</h3>
+                            <div className='case-page__text case-page__solution'>
+                                <h3 className='case-page__title'>Решение</h3>
                                 <p className='case-page__subtitle'>
                                 Частично можно использовать KV, но также необходимо добавить дополнительные элементы: схему использования препарата или устройства, состав, показания к применению и другие технические элементы.
                                 </p> 
