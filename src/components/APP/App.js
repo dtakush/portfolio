@@ -57,6 +57,9 @@ import Miele from '../CASES/Miele';
 import Amigo from '../CASES/Amigo';
 import RemitVideo from '../CASES/RemitVideo';
 import BrandIce from '../CASES/BrandIce';
+import GigaChat from '../CASES/GigaChat';
+import SberStrah from '../CASES/SberStrah';
+import Tate from '../CASES/Tate';
 
 
 
@@ -485,6 +488,24 @@ function App() {
         <Route
           exact path="/work/voroh-del"
           element={<VorohDel
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/giga-chat"
+          element={<GigaChat
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/sber-strahovaniye"
+          element={<SberStrah
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/tate"
+          element={<Tate
             scrollTop={scrollTop} />}
         />
 

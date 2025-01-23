@@ -1,5 +1,26 @@
 const itemsCases = [
     {
+      key: "60",
+      title: 'GigaChat',
+      subtitle: 'Digital',
+      picUrl: 'https://i.imgur.com/pRSBZxA.png',
+      picLink: '/work/giga-chat',
+    },
+    {
+      key: "62",
+      title: 'Tate',
+      subtitle: 'Digital',
+      picUrl: 'https://i.imgur.com/6uDL93i.png',
+      picLink: '/work/tate',
+    },
+    {
+      key: "61",
+      title: 'СберСтрахование',
+      subtitle: 'Анимация',
+      picUrl: 'https://i.imgur.com/aHVR0UU.png',
+      picLink: '/work/sber-strahovaniye',
+    },
+    {
       key: "57",
       title: 'Слобода',
       subtitle: 'Анимация',
