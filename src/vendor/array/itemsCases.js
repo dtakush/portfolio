@@ -14,6 +14,20 @@ const itemsCases = [
       picLink: '/work/tate',
     },
     {
+      key: "63",
+      title: 'Ситидрайв',
+      subtitle: 'Digital',
+      picUrl: 'https://i.imgur.com/1qj3xrL.png',
+      picLink: '/work/citydrive',
+    },
+    {
+      key: "64",
+      title: 'Самокат',
+      subtitle: 'Иллюстрация',
+      picUrl: 'https://i.imgur.com/tVBMUiZ.png',
+      picLink: '/work/samokat',
+    },
+    {
       key: "61",
       title: 'СберСтрахование',
       subtitle: 'Анимация',
@@ -40,6 +54,13 @@ const itemsCases = [
       subtitle: 'Digital',
       picUrl: 'https://i.imgur.com/QbSKhcx.png',
       picLink: '/work/brand-ice',
+    },
+    {
+      key: "65",
+      title: 'Ажур&Балансир',
+      subtitle: 'Digital',
+      picUrl: 'https://i.imgur.com/qcgViW6.png',
+      picLink: '/work/azhur',
     },
     {
       key: "27",

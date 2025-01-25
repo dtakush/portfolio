@@ -12,6 +12,10 @@ function ClientsLogos(props) {
 
                 <div className='clients-logos_background'>
                     <div className='clients-logos-table'>
+                        <div className='clients-logos_logo-block'><img className='clients-logos_logo' src={require("../../pics/logos/sber.png")} alt='Сбер' /></div>
+                        <div className='clients-logos_logo-block'><img className='clients-logos_logo' src={require("../../pics/logos/samokat.png")} alt='Самокат' /></div>
+                        <div className='clients-logos_logo-block'><img className='clients-logos_logo' src={require("../../pics/logos/citydrive.png")} alt='Ситидрайв' /></div>
+                        <div className='clients-logos_logo-block'><img className='clients-logos_logo' src={require("../../pics/logos/baltika.png")} alt='Балтика' /></div>
                         <div className='clients-logos_logo-block'><img className='clients-logos_logo' src={require("../../pics/logos/rosneft.png")} alt='Роснефть' /></div>
                         <div className='clients-logos_logo-block'><img className='clients-logos_logo' src={require("../../pics/logos/donstroy.png")} alt='Донстрой' /></div>
                         <div className='clients-logos_logo-block'><img className='clients-logos_logo' src={require("../../pics/logos/sloboda.png")} alt='Слобода' /></div>

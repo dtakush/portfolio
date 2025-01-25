@@ -22,6 +22,7 @@ import PauseTeaPackCasePage from '../CASES/PauseTeaPackCasePage';
 import StPetOutdoor from '../CASES/StPetOutdoor';
 import StikersVolost from '../CASES/StikersVolost';
 import VorohDel from '../CASES/VorohDel';
+import Samokat from '../CASES/Samokat';
 //Outdoor
 import SerdceStolitsy from '../CASES/SerdceStolitsy';
 import DomXXII from '../CASES/DomXXII';
@@ -60,6 +61,8 @@ import BrandIce from '../CASES/BrandIce';
 import GigaChat from '../CASES/GigaChat';
 import SberStrah from '../CASES/SberStrah';
 import Tate from '../CASES/Tate';
+import Citydrive from '../CASES/Citydrive';
+import Azhur from '../CASES/Azhur';
 
 
 
@@ -506,6 +509,24 @@ function App() {
         <Route
           exact path="/work/tate"
           element={<Tate
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/citydrive"
+          element={<Citydrive
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/samokat"
+          element={<Samokat
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/azhur"
+          element={<Azhur
             scrollTop={scrollTop} />}
         />
 

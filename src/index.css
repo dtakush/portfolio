@@ -43,6 +43,7 @@
 @import url(./components/CASES/StikersVolost.css);
 @import url(./components/CASES/CheckList.css);
 @import url(./components/CASES/VorohDel.css);
+@import url(./components/CASES/Samokat.css);
 /*Outdoor*/
 @import url(./components/CASES/SerdceStolitsy.css);
 @import url(./components/CASES/DomXXII.css);
@@ -80,3 +81,5 @@
 @import url(./components/CASES/GigaChat.css);
 @import url(./components/CASES/SberStrah.css);
 @import url(./components/CASES/Tate.css);
+@import url(./components/CASES/Citydrive.css);
+@import url(./components/CASES/Azhur.css);
