@@ -44,6 +44,7 @@
 @import url(./components/CASES/CheckList.css);
 @import url(./components/CASES/VorohDel.css);
 @import url(./components/CASES/Samokat.css);
+@import url(./components/CASES/Sberegaem.css);
 /*Outdoor*/
 @import url(./components/CASES/SerdceStolitsy.css);
 @import url(./components/CASES/DomXXII.css);
@@ -83,3 +84,5 @@
 @import url(./components/CASES/Tate.css);
 @import url(./components/CASES/Citydrive.css);
 @import url(./components/CASES/Azhur.css);
+@import url(./components/CASES/SberStrahovaniye.css);
+@import url(./components/CASES/PlatiChastyami.css);

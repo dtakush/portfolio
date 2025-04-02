@@ -1,0 +1,29 @@
+
+.plati-chastyami_cover {
+    width: 100%;
+    height: 587px;
+}
+
+
+.plati-chastyami_pack__status {
+    width: 100%;
+    margin: 100px 0 0 0;
+}
+
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .plati-chastyami_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .plati-chastyami_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+}

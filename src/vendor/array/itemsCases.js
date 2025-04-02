@@ -14,6 +14,13 @@ const itemsCases = [
       picLink: '/work/tate',
     },
     {
+      key: "67",
+      title: 'Сберегаем вместе',
+      subtitle: 'Иллюстрация',
+      picUrl: 'https://i.imgur.com/JxLWAly.png',
+      picLink: '/work/sberegaem',
+    },
+    {
       key: "63",
       title: 'Ситидрайв',
       subtitle: 'Digital',
@@ -33,6 +40,20 @@ const itemsCases = [
       subtitle: 'Анимация',
       picUrl: 'https://i.imgur.com/aHVR0UU.png',
       picLink: '/work/sber-strahovaniye',
+    },
+    {
+      key: "69",
+      title: 'Плати Частями',
+      subtitle: 'Digital',
+      picUrl: 'https://i.imgur.com/MMpGQ1l.png',
+      picLink: '/work/plati-chastyami',
+    },
+    {
+      key: "68",
+      title: 'СберСтрахование',
+      subtitle: 'Digital',
+      picUrl: 'https://i.imgur.com/zarYhFf.png',
+      picLink: '/work/sberstrahovaniye',
     },
     {
       key: "57",
@@ -174,14 +195,14 @@ const itemsCases = [
       picUrl: 'https://i.imgur.com/Nif6aZs.png',
       picLink: '/work/volost',
     },
-    {
+    /*{
       key: "52",
       title: 'Novo Nordisk',
       subtitle: 'Outdoor',
       picUrl: 'https://i.imgur.com/hqCVjLH.png',
       picLink: '/work/novo-nordisk',
     },
-    /*{
+    {
       key: "40",
       title: 'Чистая линия',
       subtitle: 'Пресса',

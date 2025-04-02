@@ -63,6 +63,9 @@ import SberStrah from '../CASES/SberStrah';
 import Tate from '../CASES/Tate';
 import Citydrive from '../CASES/Citydrive';
 import Azhur from '../CASES/Azhur';
+import Sberegaem from '../CASES/Sberegaem';
+import SberStrahovaniye from '../CASES/SberStrahovaniye';
+import PlatiChastyami from '../CASES/PlatiChastyami';
 
 
 
@@ -527,6 +530,24 @@ function App() {
         <Route
           exact path="/work/azhur"
           element={<Azhur
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/sberegaem"
+          element={<Sberegaem
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/sberstrahovaniye"
+          element={<SberStrahovaniye
+            scrollTop={scrollTop} />}
+        />
+
+        <Route
+          exact path="/work/plati-chastyami"
+          element={<PlatiChastyami
             scrollTop={scrollTop} />}
         />
 
