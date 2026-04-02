@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 //import { useMediaQuery } from "react-responsive";
 
-import logo from '../../../public/main_images/LOGO.svg';
+import logo from '../../pics/LOGO.svg';
 
 function Header() {
     const location = useLocation();
