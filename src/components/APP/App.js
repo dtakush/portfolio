@@ -46,6 +46,7 @@ import GigaChat from '../CASES/GigaChat';
 import Tate from '../CASES/Tate';
 import Citydrive from '../CASES/Citydrive';
 import PlatiChastyami from '../CASES/PlatiChastyami';
+import Megamarket from '../CASES/Megamarket';
 
 
 
@@ -271,6 +272,12 @@ function App() {
             onSortBranding={sortBranding}
             onSortWeb={sortWeb}
             cards={sortedCards} />}
+        />
+
+        <Route
+          exact path="/work/megamarket"
+          element={<Megamarket
+            scrollTop={scrollTop} />}
         />
 
         <Route

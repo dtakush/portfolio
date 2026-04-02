@@ -1,0 +1,36 @@
+
+.megamarket_title {
+    margin-top: 30px;
+}
+
+.megamarket_cover {
+    width: 100%;
+}
+
+
+.megamarket_video {
+    margin: 100px 0;
+    min-width: 100%;
+    min-height: 500px;
+}
+
+@media screen and (max-width: 1240px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .megamarket_task-pic {
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    .megamarket_solution-pic {
+        width: 100%;
+        min-height: 300px;
+        margin-top: 100px;
+    }
+
+    .megamarket_title {
+        margin: 0;
+    }
+}

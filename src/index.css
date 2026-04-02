@@ -60,10 +60,11 @@
 /*Animation*/
 @import url(./components/CASES/MovieVideo.css);
 @import url(./components/CASES/Sloboda.css);
+@import url(./components/CASES/Megamarket.css);
+@import url(./components/CASES/Citydrive.css);
 /*Digital*/
 @import url(./components/CASES/BoironLanding.css);
 @import url(./components/CASES/BrandIce.css);
 @import url(./components/CASES/GigaChat.css);
 @import url(./components/CASES/Tate.css);
-@import url(./components/CASES/Citydrive.css);
 @import url(./components/CASES/PlatiChastyami.css);

@@ -41,10 +41,10 @@ function Citydrive(props) {
                                 </p>
                             </div>
                         </div>
+                        <iframe className='citydrive_video' width="720" height="405" src="https://rutube.ru/play/embed/9ca704e6cffcf4d4e7a22dbe18f4de1d"  allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
                         <img className='citydrive_pack__status' src={require("../../pics/cases-pics/citydrive/work.png")} alt='Макет' />
 
-                        <iframe className='citydrive_video' width="900" height="506" src="https://rutube.ru/play/embed/d227448ab6eaf4fcd239de25b48d93fe" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                     </div>
 
 
