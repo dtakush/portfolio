@@ -23,48 +23,28 @@ import StPetOutdoor from '../CASES/StPetOutdoor';
 import StikersVolost from '../CASES/StikersVolost';
 import VorohDel from '../CASES/VorohDel';
 import Samokat from '../CASES/Samokat';
+import Sberegaem from '../CASES/Sberegaem';
 //Outdoor
-import SerdceStolitsy from '../CASES/SerdceStolitsy';
 import DomXXII from '../CASES/DomXXII';
-import AistResidence from '../CASES/AistResidence';
-import Rogozhsky from '../CASES/Rogozhsky';
 import Horoshovsky from '../CASES/Horoshovsky';
 import DolinaSetun from '../CASES/DolinaSetun';
-import MobiadoOutdoor from '../CASES/MobiadoOutdoor';
-import NovoNordisk from '../CASES/NovoNordisk';
 //Press
 import BoehringerIngelheim from '../CASES/BoehringerIngelheim';
 import Alcon from '../CASES/Alcon';
-import MobiadoPress from '../CASES/MobiadoPress';
-import CleanLine from '../CASES/CleanLine';
-import Fungoterbin from '../CASES/Fungoterbin';
-import Frautest from '../CASES/Frautest';
-import Desrinit from '../CASES/Desrinit';
 //Branding
 import Svoi from '../CASES/Svoi';
 import MobiadoIphone from '../CASES/MobiadoIphone';
 import Dolfin from '../CASES/Dolfin';
 import HD from '../CASES/HD';
-import CheckList from '../CASES/CheckList';
 //Animation
-import FamiliaVideo from '../CASES/FamiliaVideo';
 import MovieVideo from '../CASES/MovieVideo';
-import MedinformVideo from '../CASES/MedinformVideo';
-import MayakVideo from '../CASES/MayakVideo';
 import Sloboda from '../CASES/Sloboda';
 //Digital
 import BoironLanding from '../CASES/BoironLanding';
-import Miele from '../CASES/Miele';
-import Amigo from '../CASES/Amigo';
-import RemitVideo from '../CASES/RemitVideo';
 import BrandIce from '../CASES/BrandIce';
 import GigaChat from '../CASES/GigaChat';
-import SberStrah from '../CASES/SberStrah';
 import Tate from '../CASES/Tate';
 import Citydrive from '../CASES/Citydrive';
-import Azhur from '../CASES/Azhur';
-import Sberegaem from '../CASES/Sberegaem';
-import SberStrahovaniye from '../CASES/SberStrahovaniye';
 import PlatiChastyami from '../CASES/PlatiChastyami';
 
 
@@ -312,26 +292,8 @@ function App() {
         />
 
         <Route
-          exact path="/work/serdce-stolitsy"
-          element={<SerdceStolitsy
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
           exact path="/work/dom-22"
           element={<DomXXII
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/aist-residence"
-          element={<AistResidence
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/rogozhsky"
-          element={<Rogozhsky
             scrollTop={scrollTop} />}
         />
 
@@ -348,12 +310,6 @@ function App() {
         />
 
         <Route
-          exact path="/work/mobiado-outdoor"
-          element={<MobiadoOutdoor
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
           exact path="/work/boehringer-ingelheim"
           element={<BoehringerIngelheim
             scrollTop={scrollTop} />}
@@ -362,36 +318,6 @@ function App() {
         <Route
           exact path="/work/alcon"
           element={<Alcon
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/mobiado-press"
-          element={<MobiadoPress
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/clean-line"
-          element={<CleanLine
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/fungoterbin"
-          element={<Fungoterbin
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/frautest"
-          element={<Frautest
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/desrinit"
-          element={<Desrinit
             scrollTop={scrollTop} />}
         />
 
@@ -420,62 +346,14 @@ function App() {
         />
 
         <Route
-          exact path="/work/check-list"
-          element={<CheckList
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/familia-video"
-          element={<FamiliaVideo
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
           exact path="/work/movie-video"
           element={<MovieVideo
             scrollTop={scrollTop} />}
         />
 
         <Route
-          exact path="/work/hills-all-legs"
-          element={<MedinformVideo
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/mayak-video"
-          element={<MayakVideo
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/remit-video"
-          element={<RemitVideo
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/novo-nordisk"
-          element={<NovoNordisk
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
           exact path="/work/boiron-landing"
           element={<BoironLanding
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/miele"
-          element={<Miele
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/amigo"
-          element={<Amigo
             scrollTop={scrollTop} />}
         />
 
@@ -504,12 +382,6 @@ function App() {
         />
 
         <Route
-          exact path="/work/sber-strahovaniye"
-          element={<SberStrah
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
           exact path="/work/tate"
           element={<Tate
             scrollTop={scrollTop} />}
@@ -528,20 +400,8 @@ function App() {
         />
 
         <Route
-          exact path="/work/azhur"
-          element={<Azhur
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
           exact path="/work/sberegaem"
           element={<Sberegaem
-            scrollTop={scrollTop} />}
-        />
-
-        <Route
-          exact path="/work/sberstrahovaniye"
-          element={<SberStrahovaniye
             scrollTop={scrollTop} />}
         />
 

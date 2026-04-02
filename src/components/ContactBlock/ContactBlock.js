@@ -20,12 +20,6 @@ function ContactBlock() {
                 </div>
 
                 <div className='contact-block_table'>
-                    <h3 className='contact-block_header'>WhatsApp</h3>
-                    <div className='contact-block_line' style={{width: 104}}></div>
-                    <a className='contact-block_text' href="https://wa.me/79859631151" target='_blanc'>+7 (985) 963-1151</a>
-                </div>
-
-                <div className='contact-block_table'>
                     <h3 className='contact-block_header'>Instagram</h3>
                     <div className='contact-block_line' style={{width: 130}}></div>
                     <a className='contact-block_text' href="https://www.instagram.com/dariatakush/" target='_blanc'>@dariatakush</a>
@@ -41,12 +35,6 @@ function ContactBlock() {
                     <h3 className='contact-block_header'>Behance</h3>
                     <div className='contact-block_line' style={{width: 155}}></div>
                     <a  className='contact-block_text' href="https://www.behance.net/dariatakush" target='_blanc'>/dariatakush</a>
-                </div>
-
-                <div className='contact-block_table'>
-                    <h3 className='contact-block_header'>Dribble</h3>
-                    <div className='contact-block_line' style={{width: 164}}></div>
-                    <a  className='contact-block_text' href="https://dribbble.com/DariaTakush" target='_blanc'>/DariaTakush</a>
                 </div>
             </div>
             
